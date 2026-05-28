@@ -29,9 +29,8 @@ jobs:
         run: npm run fetch-heat
         env:
           FETCH_FORCE: "1"
-          # Trends from GitHub-hosted runners often needs a proxy; set repo secret HTTPS_PROXY
+          # Set repo secret HTTPS_PROXY if Trends needs a proxy from CI runners
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
-          https_proxy: ${{ secrets.HTTPS_PROXY }}
 
       - name: Commit and push if data changed
         id: commit
