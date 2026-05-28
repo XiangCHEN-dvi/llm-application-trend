@@ -1,0 +1,107 @@
+[
+  {
+    "category": "prompting",
+    "concepts": [
+      {
+        "id": "chain-of-thought",
+        "name": "Chain-of-Thought",
+        "summary": "Spelling out reasoning steps in the prompt for harder tasks—a core prompting technique that later showed up in agents and tool use."
+      },
+      {
+        "id": "react-pattern",
+        "name": "ReAct",
+        "summary": "Interleaving reasoning traces with tool calls—the pattern that linked chat-style prompts to actionable apps."
+      },
+      {
+        "id": "prompt-engineering",
+        "name": "Prompt Engineering",
+        "summary": "Crafting prompts to steer model behavior—a defining builder skill in 2023, later partly absorbed by context engineering."
+      },
+      {
+        "id": "context-engineering",
+        "name": "Context Engineering",
+        "summary": "Designing everything in the context window—system prompts, tools, memory, and retrieved content—not just the user message."
+      }
+    ]
+  },
+  {
+    "category": "memory",
+    "concepts": [
+      {
+        "id": "rag",
+        "name": "RAG",
+        "summary": "Retrieve-then-generate for grounding on private data—the default enterprise app pattern in 2023, later debated against longer context and agents."
+      },
+      {
+        "id": "graphrag",
+        "name": "GraphRAG",
+        "summary": "Graph structure and community summaries on top of RAG for complex corpora—Microsoft’s term for knowledge-heavy deployments."
+      },
+      {
+        "id": "vector-db",
+        "name": "Vector Database",
+        "summary": "Pinecone, Weaviate, Chroma, and peers surged with the RAG boom, then cooled as the market consolidated."
+      }
+    ]
+  },
+  {
+    "category": "tools",
+    "concepts": [
+      {
+        "id": "tool-use",
+        "name": "Tool Use",
+        "summary": "Structured tool and function calls that let models hit APIs and databases—the bridge from chat to action."
+      },
+      {
+        "id": "mcp",
+        "name": "MCP",
+        "summary": "Model Context Protocol—an open standard for plugging models into tools and data, often called USB-C for AI."
+      },
+      {
+        "id": "a2a",
+        "name": "A2A",
+        "summary": "Agent2Agent protocol for discovery and task handoff between agents—complements MCP’s model-to-tool layer."
+      },
+      {
+        "id": "skills",
+        "name": "Skills",
+        "summary": "Packaged agent capabilities—instructions, scripts, and resources loaded on demand (e.g. Claude Skills, agentskills.io)—as a composable layer above raw tool calls."
+      },
+      {
+        "id": "agent-harness",
+        "name": "Agent Harness",
+        "summary": "Repeatable runtimes for models, tools, and environments—with tracing and eval hooks—from OSS scaffolds to IDE loops."
+      }
+    ]
+  },
+  {
+    "category": "application",
+    "concepts": [
+      {
+        "id": "chatbot",
+        "name": "Chatbot",
+        "summary": "Consumer chat apps after ChatGPT—turning LLMs into products and fixing the chat box as the default UI."
+      },
+      {
+        "id": "llm-agent",
+        "name": "LLM Agent",
+        "summary": "Product narrative from 2024 on: apps where the model plans, calls tools, and completes multi-step work autonomously."
+      },
+      {
+        "id": "copilot",
+        "name": "Copilot",
+        "summary": "Inline assistants in IDEs, Office, and browsers—GitHub Copilot and Microsoft Copilot popularized the copilot UX."
+      },
+      {
+        "id": "deep-research",
+        "name": "Deep Research",
+        "summary": "Long-running search, reading, and synthesis into reports—productized by OpenAI, Google, and others."
+      },
+      {
+        "id": "vibe-coding",
+        "name": "Vibe Coding",
+        "summary": "Describing software in natural language and iterating fast—celebrated for speed, questioned on reliability."
+      }
+    ]
+  }
+]

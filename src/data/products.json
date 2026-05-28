@@ -1,0 +1,97 @@
+[
+  {
+    "category": "open-source",
+    "products": [
+      {
+        "id": "langchain-langgraph",
+        "name": "LangChain",
+        "summary": "The default OSS stack for chains, tools, and retrieval—LangGraph added stateful, graph-shaped agent workflows."
+      },
+      {
+        "id": "llamaindex",
+        "name": "LlamaIndex",
+        "summary": "Data-ingestion and indexing framework for document RAG—often the second name beside LangChain in app repos."
+      },
+      {
+        "id": "autogpt",
+        "name": "AutoGPT",
+        "summary": "The 2023 viral autonomous loop—goals, tools, and memory in a repeating script—that made “AI agent” a household builder meme."
+      },
+      {
+        "id": "camel",
+        "name": "CAMEL",
+        "summary": "Communicative Agents framework for role-playing and multi-agent simulation—an early open stack for agent societies."
+      },
+      {
+        "id": "crewai",
+        "name": "CrewAI",
+        "summary": "Python framework for crews of role-specialized agents working shared tasks—a popular multi-agent workflow brand."
+      },
+      {
+        "id": "openclaw",
+        "name": "OpenClaw",
+        "summary": "Local-first personal AI assistant with a gateway for messaging channels, sandboxed tools, Live Canvas, and bundled skills—the viral open agent stack of 2026."
+      },
+      {
+        "id": "hermes-agent",
+        "name": "Hermes",
+        "summary": "Nous Research’s self-improving agent runtime—persistent memory, autonomous skill creation, MCP-native tools, and multi-channel gateways on a VPS or serverless backend."
+      },
+      {
+        "id": "qwen",
+        "name": "Qwen",
+        "summary": "Alibaba’s open-weight model family—strong multilingual and coding variants with permissive licenses that made it a default self-host choice in Asia and beyond."
+      },
+      {
+        "id": "deepseek",
+        "name": "DeepSeek",
+        "summary": "High-efficiency open models from DeepSeek—R1 reasoning and V3-class checkpoints that reset price/performance expectations for OSS deployments."
+      },
+      {
+        "id": "glm",
+        "name": "GLM",
+        "summary": "Zhipu’s ChatGLM / GLM line—long-context Chinese-English models with open weights and a large domestic builder ecosystem."
+      },
+      {
+        "id": "kimi",
+        "name": "Kimi",
+        "summary": "Moonshot’s Kimi assistant and models—marketed on very long context and document-heavy workflows, with open components in the Moonshot stack."
+      },
+      {
+        "id": "minimax",
+        "name": "MiniMax",
+        "summary": "MiniMax’s open and API model family—speech, video, and text products from one of China’s most visible multimodal labs."
+      }
+    ]
+  },
+  {
+    "category": "closed-source",
+    "products": [
+      {
+        "id": "gpt",
+        "name": "GPT",
+        "summary": "OpenAI’s GPT / ChatGPT product line—the benchmark closed API and consumer app that still anchors “frontier model” mindshare."
+      },
+      {
+        "id": "claude",
+        "name": "Claude",
+        "summary": "Anthropic’s Claude models and apps—safety-forward assistants and APIs widely used for coding, analysis, and agent backends."
+      },
+      {
+        "id": "gemini",
+        "name": "Gemini",
+        "summary": "Google’s Gemini family across Search, Workspace, and Vertex—closed multimodal APIs with selective open-weight releases on the side."
+      },
+      {
+        "id": "grok",
+        "name": "Grok",
+        "summary": "xAI’s Grok—real-time, X-integrated assistants and APIs positioned as an alternative closed frontier stack."
+      },
+      {
+        "id": "seed",
+        "name": "Seed",
+        "summary": "ByteDance’s Seed / Doubao model line—closed consumer and enterprise assistants built on one of China’s largest distribution surfaces."
+      }
+    ]
+  }
+]

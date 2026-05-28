@@ -1,0 +1,55 @@
+# Periodically refresh concept data, commit if changed, then redeploy via deploy.yml.
+
+name: Update concept data
+
+on:
+  schedule:
+    # Weekly Mon 00:00 Beijing (UTC+8) → Sun 16:00 UTC
+    - cron: "0 16 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write # workflow_dispatch deploy after data push
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm install
+
+      - name: Fetch heat series (full refresh)
+        run: npm run fetch-heat
+        env:
+          FETCH_FORCE: "1"
+          # Trends from GitHub-hosted runners often needs a proxy; set repo secret HTTPS_PROXY
+          HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
+          https_proxy: ${{ secrets.HTTPS_PROXY }}
+
+      - name: Commit and push if data changed
+        id: commit
+        run: |
+          if git diff --quiet src/data/heat-series.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/heat-series.json
+          git commit -m "chore(data): refresh heat series from scheduled fetch"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run "Deploy to GitHub Pages" --ref main
