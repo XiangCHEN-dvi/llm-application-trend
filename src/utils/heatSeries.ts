@@ -3,19 +3,12 @@ import { TIMELINE_START, timelineEndMonth } from "../data/timelineBounds";
 import { observedScoreAt } from "../data/observedHeat";
 import { isOnTimeline } from "./timeline";
 
-/** Chart band width from heat-series.json; zero when no score for that month */
-export function rawHeatAt(item: HistomapItem, month: Date): number {
+function rawHeatAt(item: HistomapItem, month: Date): number {
   if (!isOnTimeline(month)) return 0;
   return observedScoreAt(item.id, month) ?? 0;
 }
 
-export interface MonthSlice {
-  date: Date;
-  label: string;
-  shares: Map<string, number>;
-}
-
-export function generateMonthGrid(): Date[] {
+function generateMonthGrid(): Date[] {
   const months: Date[] = [];
   const cursor = new Date(TIMELINE_START);
   cursor.setDate(1);
@@ -27,7 +20,7 @@ export function generateMonthGrid(): Date[] {
   return months;
 }
 
-export function buildMonthSlices(items: HistomapItem[]): MonthSlice[] {
+function buildMonthShares(items: HistomapItem[]): Map<string, number>[] {
   const months = generateMonthGrid();
 
   return months.map((date) => {
@@ -44,18 +37,14 @@ export function buildMonthSlices(items: HistomapItem[]): MonthSlice[] {
     if (total > 0) {
       for (const [id, h] of raw) shares.set(id, h / total);
     }
-    const label =
-      date.getMonth() === 0
-        ? String(date.getFullYear())
-        : date.toLocaleString("en-US", { month: "short" });
-    return { date, label, shares };
+    return shares;
   });
 }
 
-type Bounds = { xLeft: number; xRight: number; width: number };
+type Bounds = { xLeft: number; xRight: number };
 
 function boundsForSlice(
-  slice: MonthSlice,
+  shares: Map<string, number>,
   items: HistomapItem[],
   chartWidth: number,
 ): Map<string, Bounds> {
@@ -63,7 +52,7 @@ function boundsForSlice(
   let x = 0;
 
   for (const c of items) {
-    const share = slice.shares.get(c.id) ?? 0;
+    const share = shares.get(c.id) ?? 0;
     if (share <= 0) continue;
     const xRight = x + share * chartWidth;
     bands.push({ id: c.id, xLeft: x, xRight });
@@ -80,13 +69,23 @@ function boundsForSlice(
 
   const bounds = new Map<string, Bounds>();
   for (const b of bands) {
-    bounds.set(b.id, {
-      xLeft: b.xLeft,
-      xRight: b.xRight,
-      width: b.xRight - b.xLeft,
-    });
+    bounds.set(b.id, { xLeft: b.xLeft, xRight: b.xRight });
   }
   return bounds;
+}
+
+function buildSliceBounds(
+  items: HistomapItem[],
+  chartWidth: number,
+  monthCount: number,
+): Map<string, Bounds>[] {
+  return buildMonthShares(items)
+    .slice(0, monthCount)
+    .map((shares) => boundsForSlice(shares, items, chartWidth));
+}
+
+function lastDrawableMonthIndex(monthCount: number): number {
+  return monthCount - 2;
 }
 
 export interface ConceptPath {
@@ -100,81 +99,125 @@ export interface ConceptLabelAnchor {
   width: number;
 }
 
-interface BoundaryPoint {
+export interface ChartGeometry {
+  paths: ConceptPath[];
+  labelAnchors: Map<string, ConceptLabelAnchor>;
+}
+
+interface MonthStrip {
+  monthIndex: number;
   xLeft: number;
   xRight: number;
-  y: number;
+  yTop: number;
+  yBottom: number;
 }
 
-function polygonFromBoundaries(points: BoundaryPoint[]): string {
-  if (points.length < 2) return "";
-
-  const parts = [`M ${points[0]!.xLeft} ${points[0]!.y}`];
-  for (let i = 1; i < points.length; i++) {
-    parts.push(`L ${points[i]!.xLeft} ${points[i]!.y}`);
-  }
-  const last = points[points.length - 1]!;
-  parts.push(`L ${last.xRight} ${last.y}`);
-  for (let i = points.length - 2; i >= 0; i--) {
-    parts.push(`L ${points[i]!.xRight} ${points[i]!.y}`);
-  }
-  parts.push("Z");
-  return parts.join(" ");
+/** One calendar-month band: top = this month’s bounds, bottom = next month’s (trapezoid). */
+function monthBandPath(
+  strip: MonthStrip,
+  bottomLeft: number,
+  bottomRight: number,
+): string {
+  return `M ${strip.xLeft} ${strip.yTop} L ${strip.xRight} ${strip.yTop} L ${bottomRight} ${strip.yBottom} L ${bottomLeft} ${strip.yBottom} Z`;
 }
 
-export function buildConceptPaths(
+/** Debut month wedge: apex → this month’s top-left → top-right. */
+function debutWedgePath(strip: MonthStrip, apexX: number): string {
+  const yPrior = strip.yTop - (strip.yBottom - strip.yTop);
+  return `M ${apexX} ${yPrior} L ${strip.xLeft} ${strip.yTop} L ${strip.xRight} ${strip.yTop} Z`;
+}
+
+/** Exit month wedge: this month’s top-left → top-right → apex at row bottom. */
+function exitWedgePath(strip: MonthStrip, apexX: number): string {
+  return `M ${strip.xLeft} ${strip.yTop} L ${strip.xRight} ${strip.yTop} L ${apexX} ${strip.yBottom} Z`;
+}
+
+/** Walk left; first neighbor with data in targetMonth → its xRight; else chart left. */
+function wedgeApexX(
   items: HistomapItem[],
-  chartWidth: number,
-  rowHeight: number,
-  monthCount?: number,
-): ConceptPath[] {
-  const slices = buildMonthSlices(items);
-  if (slices.length === 0) return [];
+  sliceBounds: Map<string, Bounds>[],
+  conceptIndex: number,
+  targetMonthIndex: number,
+): number {
+  if (targetMonthIndex < 0 || targetMonthIndex >= sliceBounds.length) return 0;
+  const month = sliceBounds[targetMonthIndex]!;
 
-  const n = monthCount ?? slices.length;
-  const sliceBounds = slices
-    .slice(0, n)
-    .map((s) => boundsForSlice(s, items, chartWidth));
+  for (let j = conceptIndex - 1; j >= 0; j--) {
+    const b = month.get(items[j]!.id);
+    if (b) return b.xRight;
+  }
+  return 0;
+}
+
+function pathsForRun(
+  strips: MonthStrip[],
+  conceptIndex: number,
+  items: HistomapItem[],
+  sliceBounds: Map<string, Bounds>[],
+): string[] {
+  const out: string[] = [];
+  const conceptId = items[conceptIndex]!.id;
+  const lastDrawable = lastDrawableMonthIndex(sliceBounds.length);
+
+  for (let i = 0; i < strips.length; i++) {
+    const s = strips[i]!;
+    if (s.monthIndex > lastDrawable) continue;
+
+    const below = sliceBounds[s.monthIndex + 1]!.get(conceptId);
+    if (below) {
+      out.push(monthBandPath(s, below.xLeft, below.xRight));
+    } else {
+      out.push(
+        exitWedgePath(
+          s,
+          wedgeApexX(items, sliceBounds, conceptIndex, s.monthIndex + 1),
+        ),
+      );
+    }
+    if (i === 0 && s.monthIndex > 0) {
+      out.push(
+        debutWedgePath(
+          s,
+          wedgeApexX(items, sliceBounds, conceptIndex, s.monthIndex - 1),
+        ),
+      );
+    }
+  }
+  return out;
+}
+
+function buildPaths(
+  items: HistomapItem[],
+  sliceBounds: Map<string, Bounds>[],
+  rowHeight: number,
+): ConceptPath[] {
   const paths: ConceptPath[] = [];
 
-  for (const c of items) {
-    let run: BoundaryPoint[] = [];
+  for (let conceptIndex = 0; conceptIndex < items.length; conceptIndex++) {
+    const c = items[conceptIndex]!;
+    let run: MonthStrip[] = [];
 
     const flush = () => {
-      if (run.length < 2) {
-        run = [];
-        return;
+      for (const d of pathsForRun(run, conceptIndex, items, sliceBounds)) {
+        paths.push({ conceptId: c.id, d });
       }
-      const d = polygonFromBoundaries(run);
-      if (d) paths.push({ conceptId: c.id, d });
       run = [];
     };
 
     for (let i = 0; i < sliceBounds.length; i++) {
       const b = sliceBounds[i]!.get(c.id);
-      const yTop = i * rowHeight;
-      const yBottom = (i + 1) * rowHeight;
-
-      // score 0 → no share: end this run (do not bridge across zero months).
       if (!b) {
         flush();
         continue;
       }
 
-      const prev = run[run.length - 1];
-      // Same width as previous month: extend one rectangle; else add a new strip
-      // (still one polygon for this contiguous non-zero run).
-      if (
-        prev &&
-        prev.xLeft === b.xLeft &&
-        prev.xRight === b.xRight &&
-        prev.y === yTop
-      ) {
-        prev.y = yBottom;
-      } else {
-        run.push({ xLeft: b.xLeft, xRight: b.xRight, y: yTop });
-        run.push({ xLeft: b.xLeft, xRight: b.xRight, y: yBottom });
-      }
+      run.push({
+        monthIndex: i,
+        xLeft: b.xLeft,
+        xRight: b.xRight,
+        yTop: i * rowHeight,
+        yBottom: (i + 1) * rowHeight,
+      });
     }
     flush();
   }
@@ -182,20 +225,18 @@ export function buildConceptPaths(
   return paths;
 }
 
-export function buildConceptLabelAnchors(
+function buildLabelAnchors(
   items: HistomapItem[],
-  chartWidth: number,
+  sliceBounds: Map<string, Bounds>[],
   rowHeight: number,
-  monthCount: number,
 ): Map<string, ConceptLabelAnchor> {
-  const slices = buildMonthSlices(items).slice(0, monthCount);
-  const sliceBounds = slices.map((s) => boundsForSlice(s, items, chartWidth));
   const anchors = new Map<string, ConceptLabelAnchor>();
+  const lastDrawable = lastDrawableMonthIndex(sliceBounds.length);
 
   for (const c of items) {
     let best: ConceptLabelAnchor = { x: 0, y: 0, width: 0 };
 
-    for (let i = 0; i < sliceBounds.length; i++) {
+    for (let i = 0; i <= lastDrawable; i++) {
       const b = sliceBounds[i]!.get(c.id);
       if (!b) continue;
       const width = b.xRight - b.xLeft;
@@ -212,6 +253,23 @@ export function buildConceptLabelAnchors(
   }
 
   return anchors;
+}
+
+export function buildChartGeometry(
+  items: HistomapItem[],
+  chartWidth: number,
+  rowHeight: number,
+  monthCount: number,
+): ChartGeometry {
+  const sliceBounds = buildSliceBounds(items, chartWidth, monthCount);
+  if (sliceBounds.length === 0) {
+    return { paths: [], labelAnchors: new Map() };
+  }
+
+  return {
+    paths: buildPaths(items, sliceBounds, rowHeight),
+    labelAnchors: buildLabelAnchors(items, sliceBounds, rowHeight),
+  };
 }
 
 export function activeMonthCount(items: HistomapItem[]): number {

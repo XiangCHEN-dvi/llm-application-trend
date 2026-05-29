@@ -3,8 +3,7 @@ import type { HistomapItem } from "../types";
 import { TIMELINE_START, timelineEndExclusive } from "../data/timelineBounds";
 import {
   activeMonthCount,
-  buildConceptLabelAnchors,
-  buildConceptPaths,
+  buildChartGeometry,
 } from "../utils/heatSeries";
 import { fitBandLabel } from "../utils/labelFit";
 import { buildClusterLayout } from "../utils/clusters";
@@ -86,10 +85,10 @@ export function HistomapChart({
   }, [sorted, layout, colorForMember]);
 
   const monthCount = useMemo(() => activeMonthCount(sorted), [sorted]);
-  const chartHeight = monthCount * ROW_HEIGHT;
+  const chartHeight = Math.max(0, monthCount - 1) * ROW_HEIGHT;
 
-  const paths = useMemo(
-    () => buildConceptPaths(sorted, CHART_WIDTH, ROW_HEIGHT, monthCount),
+  const { paths, labelAnchors: labelAnchorMap } = useMemo(
+    () => buildChartGeometry(sorted, CHART_WIDTH, ROW_HEIGHT, monthCount),
     [sorted, monthCount],
   );
 
@@ -113,10 +112,12 @@ export function HistomapChart({
 
   const labelAnchors = useMemo(
     () =>
-      [...buildConceptLabelAnchors(sorted, CHART_WIDTH, ROW_HEIGHT, monthCount).entries()].map(
-        ([id, anchor]) => ({ id, ...anchor, w: anchor.width }),
-      ),
-    [sorted, monthCount],
+      [...labelAnchorMap.entries()].map(([id, anchor]) => ({
+        id,
+        ...anchor,
+        w: anchor.width,
+      })),
+    [labelAnchorMap],
   );
 
   const yearTicks = useMemo(() => {
