@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T17:11:47.136Z",
+  "generatedAt": "2026-06-14T17:17:12.241Z",
   "partial": false,
   "formula": "score = max(google_trends per term, 0–100 each); termTrends = per-term series; chart width = monthly share across concepts only",
   "sources": [
@@ -71,11 +71,11 @@
         },
         {
           "month": "2023-03",
-          "score": 3
+          "score": 4
         },
         {
           "month": "2023-04",
-          "score": 2
+          "score": 4
         },
         {
           "month": "2023-05",
@@ -83,7 +83,7 @@
         },
         {
           "month": "2023-06",
-          "score": 3
+          "score": 5
         },
         {
           "month": "2023-07",
@@ -91,11 +91,11 @@
         },
         {
           "month": "2023-08",
-          "score": 3
+          "score": 2
         },
         {
           "month": "2023-09",
-          "score": 7
+          "score": 5
         },
         {
           "month": "2023-10",
@@ -103,23 +103,23 @@
         },
         {
           "month": "2023-11",
-          "score": 4
-        },
-        {
-          "month": "2023-12",
-          "score": 5
-        },
-        {
-          "month": "2024-01",
           "score": 3
         },
         {
+          "month": "2023-12",
+          "score": 4
+        },
+        {
+          "month": "2024-01",
+          "score": 6
+        },
+        {
           "month": "2024-02",
-          "score": 5
+          "score": 3
         },
         {
           "month": "2024-03",
-          "score": 4
+          "score": 5
         },
         {
           "month": "2024-04",
@@ -131,7 +131,7 @@
         },
         {
           "month": "2024-06",
-          "score": 9
+          "score": 10
         },
         {
           "month": "2024-07",
@@ -143,11 +143,11 @@
         },
         {
           "month": "2024-09",
-          "score": 8
+          "score": 9
         },
         {
           "month": "2024-10",
-          "score": 6
+          "score": 7
         },
         {
           "month": "2024-11",
@@ -155,7 +155,7 @@
         },
         {
           "month": "2024-12",
-          "score": 8
+          "score": 7
         },
         {
           "month": "2025-01",
@@ -167,23 +167,23 @@
         },
         {
           "month": "2025-03",
-          "score": 7
+          "score": 8
         },
         {
           "month": "2025-04",
-          "score": 9
+          "score": 6
         },
         {
           "month": "2025-05",
-          "score": 13
+          "score": 9
         },
         {
           "month": "2025-06",
-          "score": 10
+          "score": 9
         },
         {
           "month": "2025-07",
-          "score": 19
+          "score": 20
         },
         {
           "month": "2025-08",
@@ -191,27 +191,27 @@
         },
         {
           "month": "2025-09",
-          "score": 43
+          "score": 42
         },
         {
           "month": "2025-10",
-          "score": 50
+          "score": 52
         },
         {
           "month": "2025-11",
-          "score": 91
+          "score": 88
         },
         {
           "month": "2025-12",
-          "score": 77
+          "score": 76
         },
         {
           "month": "2026-01",
-          "score": 48
+          "score": 47
         },
         {
           "month": "2026-02",
-          "score": 54
+          "score": 56
         },
         {
           "month": "2026-03",
@@ -298,7 +298,7 @@
           },
           {
             "month": "2024-04",
-            "trends": 3
+            "trends": 4
           },
           {
             "month": "2024-05",
@@ -306,7 +306,7 @@
           },
           {
             "month": "2024-06",
-            "trends": 9
+            "trends": 10
           },
           {
             "month": "2024-07",
@@ -350,7 +350,7 @@
           },
           {
             "month": "2025-05",
-            "trends": 5
+            "trends": 6
           },
           {
             "month": "2025-06",
@@ -362,11 +362,11 @@
           },
           {
             "month": "2025-08",
-            "trends": 31
+            "trends": 32
           },
           {
             "month": "2025-09",
-            "trends": 15
+            "trends": 16
           },
           {
             "month": "2025-10",
@@ -374,7 +374,7 @@
           },
           {
             "month": "2025-11",
-            "trends": 18
+            "trends": 19
           },
           {
             "month": "2025-12",
@@ -382,7 +382,7 @@
           },
           {
             "month": "2026-01",
-            "trends": 14
+            "trends": 15
           },
           {
             "month": "2026-02",
@@ -390,11 +390,11 @@
           },
           {
             "month": "2026-03",
-            "trends": 39
+            "trends": 40
           },
           {
             "month": "2026-04",
-            "trends": 47
+            "trends": 49
           },
           {
             "month": "2026-05",
@@ -420,11 +420,11 @@
           },
           {
             "month": "2023-03",
-            "trends": 3
+            "trends": 4
           },
           {
             "month": "2023-04",
-            "trends": 0
+            "trends": 4
           },
           {
             "month": "2023-05",
@@ -432,7 +432,7 @@
           },
           {
             "month": "2023-06",
-            "trends": 3
+            "trends": 5
           },
           {
             "month": "2023-07",
@@ -440,11 +440,11 @@
           },
           {
             "month": "2023-08",
-            "trends": 3
+            "trends": 0
           },
           {
             "month": "2023-09",
-            "trends": 7
+            "trends": 5
           },
           {
             "month": "2023-10",
@@ -452,23 +452,23 @@
           },
           {
             "month": "2023-11",
-            "trends": 4
-          },
-          {
-            "month": "2023-12",
-            "trends": 5
-          },
-          {
-            "month": "2024-01",
             "trends": 3
           },
           {
+            "month": "2023-12",
+            "trends": 4
+          },
+          {
+            "month": "2024-01",
+            "trends": 6
+          },
+          {
             "month": "2024-02",
-            "trends": 5
+            "trends": 0
           },
           {
             "month": "2024-03",
-            "trends": 4
+            "trends": 5
           },
           {
             "month": "2024-04",
@@ -476,15 +476,15 @@
           },
           {
             "month": "2024-05",
-            "trends": 0
+            "trends": 4
           },
           {
             "month": "2024-06",
-            "trends": 6
+            "trends": 7
           },
           {
             "month": "2024-07",
-            "trends": 4
+            "trends": 0
           },
           {
             "month": "2024-08",
@@ -492,11 +492,11 @@
           },
           {
             "month": "2024-09",
-            "trends": 5
+            "trends": 9
           },
           {
             "month": "2024-10",
-            "trends": 6
+            "trends": 7
           },
           {
             "month": "2024-11",
@@ -504,11 +504,11 @@
           },
           {
             "month": "2024-12",
-            "trends": 8
+            "trends": 7
           },
           {
             "month": "2025-01",
-            "trends": 7
+            "trends": 8
           },
           {
             "month": "2025-02",
@@ -516,23 +516,23 @@
           },
           {
             "month": "2025-03",
-            "trends": 7
+            "trends": 8
           },
           {
             "month": "2025-04",
-            "trends": 9
+            "trends": 6
           },
           {
             "month": "2025-05",
-            "trends": 13
+            "trends": 9
           },
           {
             "month": "2025-06",
-            "trends": 10
+            "trends": 9
           },
           {
             "month": "2025-07",
-            "trends": 19
+            "trends": 20
           },
           {
             "month": "2025-08",
@@ -540,27 +540,27 @@
           },
           {
             "month": "2025-09",
-            "trends": 43
+            "trends": 42
           },
           {
             "month": "2025-10",
-            "trends": 50
+            "trends": 52
           },
           {
             "month": "2025-11",
-            "trends": 91
+            "trends": 88
           },
           {
             "month": "2025-12",
-            "trends": 77
+            "trends": 76
           },
           {
             "month": "2026-01",
-            "trends": 48
+            "trends": 47
           },
           {
             "month": "2026-02",
-            "trends": 54
+            "trends": 56
           },
           {
             "month": "2026-03",
@@ -585,7 +585,7 @@
         },
         {
           "month": "2022-12",
-          "score": 3
+          "score": 0
         },
         {
           "month": "2023-01",
@@ -605,11 +605,11 @@
         },
         {
           "month": "2023-05",
-          "score": 59
+          "score": 0
         },
         {
           "month": "2023-06",
-          "score": 2
+          "score": 0
         },
         {
           "month": "2023-07",
@@ -633,7 +633,7 @@
         },
         {
           "month": "2023-12",
-          "score": 0
+          "score": 6
         },
         {
           "month": "2024-01",
@@ -641,27 +641,27 @@
         },
         {
           "month": "2024-02",
-          "score": 100
+          "score": 0
         },
         {
           "month": "2024-03",
-          "score": 0
-        },
-        {
-          "month": "2024-04",
-          "score": 0
-        },
-        {
-          "month": "2024-05",
-          "score": 77
-        },
-        {
-          "month": "2024-06",
           "score": 8
         },
         {
-          "month": "2024-07",
+          "month": "2024-04",
           "score": 7
+        },
+        {
+          "month": "2024-05",
+          "score": 0
+        },
+        {
+          "month": "2024-06",
+          "score": 0
+        },
+        {
+          "month": "2024-07",
+          "score": 0
         },
         {
           "month": "2024-08",
@@ -669,15 +669,15 @@
         },
         {
           "month": "2024-09",
-          "score": 7
-        },
-        {
-          "month": "2024-10",
           "score": 0
         },
         {
+          "month": "2024-10",
+          "score": 9
+        },
+        {
           "month": "2024-11",
-          "score": 7
+          "score": 9
         },
         {
           "month": "2024-12",
@@ -685,15 +685,15 @@
         },
         {
           "month": "2025-01",
-          "score": 9
+          "score": 0
         },
         {
           "month": "2025-02",
-          "score": 94
+          "score": 9
         },
         {
           "month": "2025-03",
-          "score": 0
+          "score": 9
         },
         {
           "month": "2025-04",
@@ -705,11 +705,11 @@
         },
         {
           "month": "2025-06",
-          "score": 9
+          "score": 4
         },
         {
           "month": "2025-07",
-          "score": 10
+          "score": 8
         },
         {
           "month": "2025-08",
@@ -717,35 +717,35 @@
         },
         {
           "month": "2025-09",
-          "score": 84
+          "score": 49
         },
         {
           "month": "2025-10",
-          "score": 42
+          "score": 41
         },
         {
           "month": "2025-11",
-          "score": 62
+          "score": 60
         },
         {
           "month": "2025-12",
-          "score": 96
+          "score": 100
         },
         {
           "month": "2026-01",
-          "score": 71
+          "score": 46
         },
         {
           "month": "2026-02",
-          "score": 52
+          "score": 51
         },
         {
           "month": "2026-03",
-          "score": 62
+          "score": 59
         },
         {
           "month": "2026-04",
-          "score": 75
+          "score": 72
         },
         {
           "month": "2026-05",
@@ -780,7 +780,7 @@
           },
           {
             "month": "2023-05",
-            "trends": 59
+            "trends": 0
           },
           {
             "month": "2023-06",
@@ -816,7 +816,7 @@
           },
           {
             "month": "2024-02",
-            "trends": 100
+            "trends": 0
           },
           {
             "month": "2024-03",
@@ -828,7 +828,7 @@
           },
           {
             "month": "2024-05",
-            "trends": 77
+            "trends": 0
           },
           {
             "month": "2024-06",
@@ -864,7 +864,7 @@
           },
           {
             "month": "2025-02",
-            "trends": 94
+            "trends": 0
           },
           {
             "month": "2025-03",
@@ -892,7 +892,7 @@
           },
           {
             "month": "2025-09",
-            "trends": 84
+            "trends": 0
           },
           {
             "month": "2025-10",
@@ -904,11 +904,11 @@
           },
           {
             "month": "2025-12",
-            "trends": 96
+            "trends": 100
           },
           {
             "month": "2026-01",
-            "trends": 71
+            "trends": 0
           },
           {
             "month": "2026-02",
@@ -920,11 +920,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 0
+            "trends": 62
           },
           {
             "month": "2026-05",
-            "trends": 24
+            "trends": 70
           }
         ],
         "ReAct Prompting": [
@@ -982,7 +982,7 @@
           },
           {
             "month": "2023-12",
-            "trends": 0
+            "trends": 6
           },
           {
             "month": "2024-01",
@@ -994,11 +994,11 @@
           },
           {
             "month": "2024-03",
-            "trends": 0
+            "trends": 8
           },
           {
             "month": "2024-04",
-            "trends": 0
+            "trends": 7
           },
           {
             "month": "2024-05",
@@ -1006,11 +1006,11 @@
           },
           {
             "month": "2024-06",
-            "trends": 8
+            "trends": 0
           },
           {
             "month": "2024-07",
-            "trends": 7
+            "trends": 0
           },
           {
             "month": "2024-08",
@@ -1018,15 +1018,15 @@
           },
           {
             "month": "2024-09",
-            "trends": 7
-          },
-          {
-            "month": "2024-10",
             "trends": 0
           },
           {
+            "month": "2024-10",
+            "trends": 9
+          },
+          {
             "month": "2024-11",
-            "trends": 7
+            "trends": 9
           },
           {
             "month": "2024-12",
@@ -1034,15 +1034,15 @@
           },
           {
             "month": "2025-01",
-            "trends": 9
+            "trends": 0
           },
           {
             "month": "2025-02",
-            "trends": 0
+            "trends": 9
           },
           {
             "month": "2025-03",
-            "trends": 0
+            "trends": 9
           },
           {
             "month": "2025-04",
@@ -1054,11 +1054,11 @@
           },
           {
             "month": "2025-06",
-            "trends": 9
+            "trends": 0
           },
           {
             "month": "2025-07",
-            "trends": 10
+            "trends": 8
           },
           {
             "month": "2025-08",
@@ -1066,27 +1066,27 @@
           },
           {
             "month": "2025-09",
-            "trends": 45
+            "trends": 49
           },
           {
             "month": "2025-10",
-            "trends": 42
+            "trends": 41
           },
           {
             "month": "2025-11",
-            "trends": 62
+            "trends": 60
           },
           {
             "month": "2025-12",
-            "trends": 30
+            "trends": 33
           },
           {
             "month": "2026-01",
-            "trends": 30
+            "trends": 38
           },
           {
             "month": "2026-02",
-            "trends": 33
+            "trends": 37
           },
           {
             "month": "2026-03",
@@ -1098,7 +1098,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 42
+            "trends": 45
           }
         ],
         "reasoning and acting": [
@@ -1108,7 +1108,7 @@
           },
           {
             "month": "2022-12",
-            "trends": 3
+            "trends": 0
           },
           {
             "month": "2023-01",
@@ -1132,7 +1132,7 @@
           },
           {
             "month": "2023-06",
-            "trends": 2
+            "trends": 0
           },
           {
             "month": "2023-07",
@@ -1228,19 +1228,19 @@
           },
           {
             "month": "2025-06",
-            "trends": 0
+            "trends": 4
           },
           {
             "month": "2025-07",
-            "trends": 3
+            "trends": 5
           },
           {
             "month": "2025-08",
-            "trends": 74
+            "trends": 72
           },
           {
             "month": "2025-09",
-            "trends": 36
+            "trends": 35
           },
           {
             "month": "2025-10",
@@ -1248,27 +1248,27 @@
           },
           {
             "month": "2025-11",
-            "trends": 54
+            "trends": 53
           },
           {
             "month": "2025-12",
-            "trends": 41
+            "trends": 42
           },
           {
             "month": "2026-01",
-            "trends": 44
+            "trends": 46
           },
           {
             "month": "2026-02",
-            "trends": 52
+            "trends": 51
           },
           {
             "month": "2026-03",
-            "trends": 62
+            "trends": 59
           },
           {
             "month": "2026-04",
-            "trends": 75
+            "trends": 72
           },
           {
             "month": "2026-05",
@@ -1297,19 +1297,19 @@
         },
         {
           "month": "2023-03",
-          "score": 11
+          "score": 12
         },
         {
           "month": "2023-04",
-          "score": 15
+          "score": 16
         },
         {
           "month": "2023-05",
-          "score": 13
+          "score": 14
         },
         {
           "month": "2023-06",
-          "score": 14
+          "score": 12
         },
         {
           "month": "2023-07",
@@ -1317,7 +1317,7 @@
         },
         {
           "month": "2023-08",
-          "score": 17
+          "score": 18
         },
         {
           "month": "2023-09",
@@ -1325,7 +1325,7 @@
         },
         {
           "month": "2023-10",
-          "score": 12
+          "score": 13
         },
         {
           "month": "2023-11",
@@ -1333,11 +1333,11 @@
         },
         {
           "month": "2023-12",
-          "score": 19
+          "score": 12
         },
         {
           "month": "2024-01",
-          "score": 13
+          "score": 14
         },
         {
           "month": "2024-02",
@@ -1345,15 +1345,15 @@
         },
         {
           "month": "2024-03",
-          "score": 13
+          "score": 14
         },
         {
           "month": "2024-04",
-          "score": 18
+          "score": 13
         },
         {
           "month": "2024-05",
-          "score": 16
+          "score": 13
         },
         {
           "month": "2024-06",
@@ -1361,11 +1361,11 @@
         },
         {
           "month": "2024-07",
-          "score": 12
+          "score": 13
         },
         {
           "month": "2024-08",
-          "score": 25
+          "score": 17
         },
         {
           "month": "2024-09",
@@ -1373,31 +1373,31 @@
         },
         {
           "month": "2024-10",
-          "score": 12
+          "score": 20
         },
         {
           "month": "2024-11",
-          "score": 11
+          "score": 19
         },
         {
           "month": "2024-12",
-          "score": 10
+          "score": 26
         },
         {
           "month": "2025-01",
-          "score": 21
+          "score": 13
         },
         {
           "month": "2025-02",
-          "score": 20
+          "score": 13
         },
         {
           "month": "2025-03",
-          "score": 21
+          "score": 23
         },
         {
           "month": "2025-04",
-          "score": 20
+          "score": 22
         },
         {
           "month": "2025-05",
@@ -1405,7 +1405,7 @@
         },
         {
           "month": "2025-06",
-          "score": 29
+          "score": 32
         },
         {
           "month": "2025-07",
@@ -1413,27 +1413,27 @@
         },
         {
           "month": "2025-08",
-          "score": 83
+          "score": 75
         },
         {
           "month": "2025-09",
-          "score": 36
+          "score": 35
         },
         {
           "month": "2025-10",
-          "score": 49
+          "score": 40
         },
         {
           "month": "2025-11",
-          "score": 44
+          "score": 41
         },
         {
           "month": "2025-12",
-          "score": 43
+          "score": 35
         },
         {
           "month": "2026-01",
-          "score": 47
+          "score": 43
         },
         {
           "month": "2026-02",
@@ -1449,7 +1449,7 @@
         },
         {
           "month": "2026-05",
-          "score": 85
+          "score": 91
         }
       ],
       "termTrends": {
@@ -1472,15 +1472,15 @@
           },
           {
             "month": "2023-03",
-            "trends": 11
+            "trends": 12
           },
           {
             "month": "2023-04",
-            "trends": 15
+            "trends": 16
           },
           {
             "month": "2023-05",
-            "trends": 13
+            "trends": 14
           },
           {
             "month": "2023-06",
@@ -1492,7 +1492,7 @@
           },
           {
             "month": "2023-08",
-            "trends": 17
+            "trends": 18
           },
           {
             "month": "2023-09",
@@ -1500,7 +1500,7 @@
           },
           {
             "month": "2023-10",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2023-11",
@@ -1512,7 +1512,7 @@
           },
           {
             "month": "2024-01",
-            "trends": 13
+            "trends": 14
           },
           {
             "month": "2024-02",
@@ -1520,15 +1520,15 @@
           },
           {
             "month": "2024-03",
-            "trends": 13
+            "trends": 14
           },
           {
             "month": "2024-04",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2024-05",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2024-06",
@@ -1536,11 +1536,11 @@
           },
           {
             "month": "2024-07",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2024-08",
-            "trends": 11
+            "trends": 12
           },
           {
             "month": "2024-09",
@@ -1548,23 +1548,23 @@
           },
           {
             "month": "2024-10",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2024-11",
-            "trends": 11
+            "trends": 12
           },
           {
             "month": "2024-12",
-            "trends": 10
+            "trends": 11
           },
           {
             "month": "2025-01",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2025-02",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2025-03",
@@ -1572,7 +1572,7 @@
           },
           {
             "month": "2025-04",
-            "trends": 20
+            "trends": 22
           },
           {
             "month": "2025-05",
@@ -1580,11 +1580,11 @@
           },
           {
             "month": "2025-06",
-            "trends": 26
+            "trends": 28
           },
           {
             "month": "2025-07",
-            "trends": 26
+            "trends": 29
           },
           {
             "month": "2025-08",
@@ -1592,7 +1592,7 @@
           },
           {
             "month": "2025-09",
-            "trends": 36
+            "trends": 35
           },
           {
             "month": "2025-10",
@@ -1604,11 +1604,11 @@
           },
           {
             "month": "2025-12",
-            "trends": 32
+            "trends": 35
           },
           {
             "month": "2026-01",
-            "trends": 35
+            "trends": 36
           },
           {
             "month": "2026-02",
@@ -1616,15 +1616,15 @@
           },
           {
             "month": "2026-03",
-            "trends": 56
+            "trends": 58
           },
           {
             "month": "2026-04",
-            "trends": 60
+            "trends": 62
           },
           {
             "month": "2026-05",
-            "trends": 73
+            "trends": 76
           }
         ],
         "LLM prompt engineering": [
@@ -1658,7 +1658,7 @@
           },
           {
             "month": "2023-06",
-            "trends": 14
+            "trends": 0
           },
           {
             "month": "2023-07",
@@ -1682,7 +1682,7 @@
           },
           {
             "month": "2023-12",
-            "trends": 19
+            "trends": 0
           },
           {
             "month": "2024-01",
@@ -1698,11 +1698,11 @@
           },
           {
             "month": "2024-04",
-            "trends": 18
+            "trends": 0
           },
           {
             "month": "2024-05",
-            "trends": 16
+            "trends": 0
           },
           {
             "month": "2024-06",
@@ -1714,7 +1714,7 @@
           },
           {
             "month": "2024-08",
-            "trends": 25
+            "trends": 17
           },
           {
             "month": "2024-09",
@@ -1722,31 +1722,31 @@
           },
           {
             "month": "2024-10",
-            "trends": 0
-          },
-          {
-            "month": "2024-11",
-            "trends": 0
-          },
-          {
-            "month": "2024-12",
-            "trends": 0
-          },
-          {
-            "month": "2025-01",
-            "trends": 21
-          },
-          {
-            "month": "2025-02",
             "trends": 20
           },
           {
+            "month": "2024-11",
+            "trends": 19
+          },
+          {
+            "month": "2024-12",
+            "trends": 26
+          },
+          {
+            "month": "2025-01",
+            "trends": 0
+          },
+          {
+            "month": "2025-02",
+            "trends": 0
+          },
+          {
             "month": "2025-03",
-            "trends": 21
+            "trends": 23
           },
           {
             "month": "2025-04",
-            "trends": 19
+            "trends": 0
           },
           {
             "month": "2025-05",
@@ -1754,7 +1754,7 @@
           },
           {
             "month": "2025-06",
-            "trends": 29
+            "trends": 32
           },
           {
             "month": "2025-07",
@@ -1762,7 +1762,7 @@
           },
           {
             "month": "2025-08",
-            "trends": 83
+            "trends": 75
           },
           {
             "month": "2025-09",
@@ -1770,19 +1770,19 @@
           },
           {
             "month": "2025-10",
-            "trends": 49
+            "trends": 40
           },
           {
             "month": "2025-11",
-            "trends": 44
+            "trends": 41
           },
           {
             "month": "2025-12",
-            "trends": 43
+            "trends": 34
           },
           {
             "month": "2026-01",
-            "trends": 47
+            "trends": 43
           },
           {
             "month": "2026-02",
@@ -1798,7 +1798,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 85
+            "trends": 91
           }
         ]
       }
@@ -1811,7 +1811,7 @@
         },
         {
           "month": "2022-12",
-          "score": 0
+          "score": 2
         },
         {
           "month": "2023-01",
@@ -1871,7 +1871,7 @@
         },
         {
           "month": "2024-03",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2024-04",
@@ -1931,7 +1931,7 @@
         },
         {
           "month": "2025-06",
-          "score": 44
+          "score": 43
         },
         {
           "month": "2025-07",
@@ -1939,15 +1939,15 @@
         },
         {
           "month": "2025-08",
-          "score": 48
+          "score": 47
         },
         {
           "month": "2025-09",
-          "score": 43
+          "score": 42
         },
         {
           "month": "2025-10",
-          "score": 74
+          "score": 73
         },
         {
           "month": "2025-11",
@@ -1967,11 +1967,11 @@
         },
         {
           "month": "2026-03",
-          "score": 76
+          "score": 75
         },
         {
           "month": "2026-04",
-          "score": 87
+          "score": 85
         },
         {
           "month": "2026-05",
@@ -1986,7 +1986,7 @@
           },
           {
             "month": "2022-12",
-            "trends": 0
+            "trends": 2
           },
           {
             "month": "2023-01",
@@ -2046,7 +2046,7 @@
           },
           {
             "month": "2024-03",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2024-04",
@@ -2106,7 +2106,7 @@
           },
           {
             "month": "2025-06",
-            "trends": 44
+            "trends": 43
           },
           {
             "month": "2025-07",
@@ -2114,15 +2114,15 @@
           },
           {
             "month": "2025-08",
-            "trends": 48
+            "trends": 47
           },
           {
             "month": "2025-09",
-            "trends": 43
+            "trends": 42
           },
           {
             "month": "2025-10",
-            "trends": 74
+            "trends": 73
           },
           {
             "month": "2025-11",
@@ -2142,11 +2142,11 @@
           },
           {
             "month": "2026-03",
-            "trends": 76
+            "trends": 75
           },
           {
             "month": "2026-04",
-            "trends": 87
+            "trends": 85
           },
           {
             "month": "2026-05",
@@ -2320,7 +2320,7 @@
           },
           {
             "month": "2026-04",
-            "trends": 60
+            "trends": 70
           },
           {
             "month": "2026-05",
@@ -2353,7 +2353,7 @@
         },
         {
           "month": "2023-04",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2023-05",
@@ -2369,15 +2369,15 @@
         },
         {
           "month": "2023-08",
-          "score": 25
+          "score": 24
         },
         {
           "month": "2023-09",
-          "score": 28
+          "score": 25
         },
         {
           "month": "2023-10",
-          "score": 40
+          "score": 43
         },
         {
           "month": "2023-11",
@@ -2385,19 +2385,19 @@
         },
         {
           "month": "2023-12",
-          "score": 53
+          "score": 56
         },
         {
           "month": "2024-01",
-          "score": 80
+          "score": 81
         },
         {
           "month": "2024-02",
-          "score": 85
+          "score": 86
         },
         {
           "month": "2024-03",
-          "score": 96
+          "score": 100
         },
         {
           "month": "2024-04",
@@ -2405,99 +2405,99 @@
         },
         {
           "month": "2024-05",
-          "score": 93
+          "score": 94
         },
         {
           "month": "2024-06",
-          "score": 91
+          "score": 93
         },
         {
           "month": "2024-07",
-          "score": 79
-        },
-        {
-          "month": "2024-08",
-          "score": 70
-        },
-        {
-          "month": "2024-09",
-          "score": 78
-        },
-        {
-          "month": "2024-10",
-          "score": 64
-        },
-        {
-          "month": "2024-11",
-          "score": 71
-        },
-        {
-          "month": "2024-12",
-          "score": 62
-        },
-        {
-          "month": "2025-01",
-          "score": 68
-        },
-        {
-          "month": "2025-02",
           "score": 81
         },
         {
-          "month": "2025-03",
-          "score": 66
+          "month": "2024-08",
+          "score": 71
         },
         {
-          "month": "2025-04",
-          "score": 53
-        },
-        {
-          "month": "2025-05",
-          "score": 60
-        },
-        {
-          "month": "2025-06",
-          "score": 65
-        },
-        {
-          "month": "2025-07",
-          "score": 53
-        },
-        {
-          "month": "2025-08",
+          "month": "2024-09",
           "score": 83
         },
         {
-          "month": "2025-09",
-          "score": 62
+          "month": "2024-10",
+          "score": 66
         },
         {
-          "month": "2025-10",
-          "score": 53
-        },
-        {
-          "month": "2025-11",
-          "score": 57
-        },
-        {
-          "month": "2025-12",
-          "score": 59
-        },
-        {
-          "month": "2026-01",
-          "score": 60
-        },
-        {
-          "month": "2026-02",
+          "month": "2024-11",
           "score": 73
         },
         {
+          "month": "2024-12",
+          "score": 57
+        },
+        {
+          "month": "2025-01",
+          "score": 69
+        },
+        {
+          "month": "2025-02",
+          "score": 88
+        },
+        {
+          "month": "2025-03",
+          "score": 65
+        },
+        {
+          "month": "2025-04",
+          "score": 54
+        },
+        {
+          "month": "2025-05",
+          "score": 63
+        },
+        {
+          "month": "2025-06",
+          "score": 63
+        },
+        {
+          "month": "2025-07",
+          "score": 57
+        },
+        {
+          "month": "2025-08",
+          "score": 87
+        },
+        {
+          "month": "2025-09",
+          "score": 65
+        },
+        {
+          "month": "2025-10",
+          "score": 55
+        },
+        {
+          "month": "2025-11",
+          "score": 61
+        },
+        {
+          "month": "2025-12",
+          "score": 61
+        },
+        {
+          "month": "2026-01",
+          "score": 61
+        },
+        {
+          "month": "2026-02",
+          "score": 69
+        },
+        {
           "month": "2026-03",
-          "score": 90
+          "score": 89
         },
         {
           "month": "2026-04",
-          "score": 78
+          "score": 77
         },
         {
           "month": "2026-05",
@@ -2528,7 +2528,7 @@
           },
           {
             "month": "2023-04",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2023-05",
@@ -2548,7 +2548,7 @@
           },
           {
             "month": "2023-09",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2023-10",
@@ -2556,7 +2556,7 @@
           },
           {
             "month": "2023-11",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2023-12",
@@ -2576,7 +2576,7 @@
           },
           {
             "month": "2024-04",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-05",
@@ -2588,7 +2588,7 @@
           },
           {
             "month": "2024-07",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-08",
@@ -2604,11 +2604,11 @@
           },
           {
             "month": "2024-11",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2024-12",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2025-01",
@@ -2616,7 +2616,7 @@
           },
           {
             "month": "2025-02",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2025-03",
@@ -2640,23 +2640,23 @@
           },
           {
             "month": "2025-08",
-            "trends": 48
+            "trends": 47
           },
           {
             "month": "2025-09",
-            "trends": 32
+            "trends": 31
           },
           {
             "month": "2025-10",
-            "trends": 30
+            "trends": 29
           },
           {
             "month": "2025-11",
-            "trends": 37
+            "trends": 36
           },
           {
             "month": "2025-12",
-            "trends": 38
+            "trends": 36
           },
           {
             "month": "2026-01",
@@ -2664,15 +2664,15 @@
           },
           {
             "month": "2026-02",
-            "trends": 44
+            "trends": 43
           },
           {
             "month": "2026-03",
-            "trends": 64
+            "trends": 62
           },
           {
             "month": "2026-04",
-            "trends": 78
+            "trends": 75
           },
           {
             "month": "2026-05",
@@ -2718,15 +2718,15 @@
           },
           {
             "month": "2023-08",
-            "trends": 25
+            "trends": 24
           },
           {
             "month": "2023-09",
-            "trends": 28
+            "trends": 25
           },
           {
             "month": "2023-10",
-            "trends": 40
+            "trends": 43
           },
           {
             "month": "2023-11",
@@ -2734,19 +2734,19 @@
           },
           {
             "month": "2023-12",
-            "trends": 53
+            "trends": 56
           },
           {
             "month": "2024-01",
-            "trends": 80
+            "trends": 81
           },
           {
             "month": "2024-02",
-            "trends": 85
+            "trends": 86
           },
           {
             "month": "2024-03",
-            "trends": 96
+            "trends": 100
           },
           {
             "month": "2024-04",
@@ -2754,103 +2754,103 @@
           },
           {
             "month": "2024-05",
-            "trends": 93
+            "trends": 94
           },
           {
             "month": "2024-06",
-            "trends": 91
+            "trends": 93
           },
           {
             "month": "2024-07",
-            "trends": 79
-          },
-          {
-            "month": "2024-08",
-            "trends": 70
-          },
-          {
-            "month": "2024-09",
-            "trends": 78
-          },
-          {
-            "month": "2024-10",
-            "trends": 64
-          },
-          {
-            "month": "2024-11",
-            "trends": 71
-          },
-          {
-            "month": "2024-12",
-            "trends": 62
-          },
-          {
-            "month": "2025-01",
-            "trends": 68
-          },
-          {
-            "month": "2025-02",
             "trends": 81
           },
           {
-            "month": "2025-03",
-            "trends": 66
+            "month": "2024-08",
+            "trends": 71
           },
           {
-            "month": "2025-04",
-            "trends": 53
-          },
-          {
-            "month": "2025-05",
-            "trends": 60
-          },
-          {
-            "month": "2025-06",
-            "trends": 65
-          },
-          {
-            "month": "2025-07",
-            "trends": 53
-          },
-          {
-            "month": "2025-08",
+            "month": "2024-09",
             "trends": 83
           },
           {
-            "month": "2025-09",
-            "trends": 62
+            "month": "2024-10",
+            "trends": 66
           },
           {
-            "month": "2025-10",
-            "trends": 53
-          },
-          {
-            "month": "2025-11",
-            "trends": 57
-          },
-          {
-            "month": "2025-12",
-            "trends": 59
-          },
-          {
-            "month": "2026-01",
-            "trends": 60
-          },
-          {
-            "month": "2026-02",
+            "month": "2024-11",
             "trends": 73
           },
           {
+            "month": "2024-12",
+            "trends": 57
+          },
+          {
+            "month": "2025-01",
+            "trends": 69
+          },
+          {
+            "month": "2025-02",
+            "trends": 88
+          },
+          {
+            "month": "2025-03",
+            "trends": 65
+          },
+          {
+            "month": "2025-04",
+            "trends": 54
+          },
+          {
+            "month": "2025-05",
+            "trends": 63
+          },
+          {
+            "month": "2025-06",
+            "trends": 63
+          },
+          {
+            "month": "2025-07",
+            "trends": 57
+          },
+          {
+            "month": "2025-08",
+            "trends": 87
+          },
+          {
+            "month": "2025-09",
+            "trends": 65
+          },
+          {
+            "month": "2025-10",
+            "trends": 55
+          },
+          {
+            "month": "2025-11",
+            "trends": 61
+          },
+          {
+            "month": "2025-12",
+            "trends": 61
+          },
+          {
+            "month": "2026-01",
+            "trends": 61
+          },
+          {
+            "month": "2026-02",
+            "trends": 69
+          },
+          {
             "month": "2026-03",
-            "trends": 90
+            "trends": 89
           },
           {
             "month": "2026-04",
-            "trends": 76
+            "trends": 77
           },
           {
             "month": "2026-05",
-            "trends": 82
+            "trends": 99
           }
         ]
       }
@@ -2935,11 +2935,11 @@
         },
         {
           "month": "2024-06",
-          "score": 16
+          "score": 17
         },
         {
           "month": "2024-07",
-          "score": 30
+          "score": 31
         },
         {
           "month": "2024-08",
@@ -2947,7 +2947,7 @@
         },
         {
           "month": "2024-09",
-          "score": 17
+          "score": 18
         },
         {
           "month": "2024-10",
@@ -2955,7 +2955,7 @@
         },
         {
           "month": "2024-11",
-          "score": 13
+          "score": 14
         },
         {
           "month": "2024-12",
@@ -2971,7 +2971,7 @@
         },
         {
           "month": "2025-03",
-          "score": 14
+          "score": 15
         },
         {
           "month": "2025-04",
@@ -2979,11 +2979,11 @@
         },
         {
           "month": "2025-05",
-          "score": 12
+          "score": 11
         },
         {
           "month": "2025-06",
-          "score": 15
+          "score": 16
         },
         {
           "month": "2025-07",
@@ -3007,11 +3007,11 @@
         },
         {
           "month": "2025-12",
-          "score": 39
+          "score": 38
         },
         {
           "month": "2026-01",
-          "score": 49
+          "score": 50
         },
         {
           "month": "2026-02",
@@ -3019,7 +3019,7 @@
         },
         {
           "month": "2026-03",
-          "score": 63
+          "score": 65
         },
         {
           "month": "2026-04",
@@ -3110,11 +3110,11 @@
           },
           {
             "month": "2024-06",
-            "trends": 16
+            "trends": 17
           },
           {
             "month": "2024-07",
-            "trends": 30
+            "trends": 31
           },
           {
             "month": "2024-08",
@@ -3122,7 +3122,7 @@
           },
           {
             "month": "2024-09",
-            "trends": 17
+            "trends": 18
           },
           {
             "month": "2024-10",
@@ -3130,7 +3130,7 @@
           },
           {
             "month": "2024-11",
-            "trends": 13
+            "trends": 14
           },
           {
             "month": "2024-12",
@@ -3146,7 +3146,7 @@
           },
           {
             "month": "2025-03",
-            "trends": 14
+            "trends": 15
           },
           {
             "month": "2025-04",
@@ -3154,11 +3154,11 @@
           },
           {
             "month": "2025-05",
-            "trends": 12
+            "trends": 11
           },
           {
             "month": "2025-06",
-            "trends": 15
+            "trends": 16
           },
           {
             "month": "2025-07",
@@ -3182,11 +3182,11 @@
           },
           {
             "month": "2025-12",
-            "trends": 39
+            "trends": 38
           },
           {
             "month": "2026-01",
-            "trends": 49
+            "trends": 50
           },
           {
             "month": "2026-02",
@@ -3194,7 +3194,7 @@
           },
           {
             "month": "2026-03",
-            "trends": 63
+            "trends": 65
           },
           {
             "month": "2026-04",
@@ -3279,7 +3279,7 @@
         },
         {
           "month": "2024-04",
-          "score": 5
+          "score": 6
         },
         {
           "month": "2024-05",
@@ -3295,7 +3295,7 @@
         },
         {
           "month": "2024-08",
-          "score": 4
+          "score": 5
         },
         {
           "month": "2024-09",
@@ -3319,7 +3319,7 @@
         },
         {
           "month": "2025-02",
-          "score": 6
+          "score": 7
         },
         {
           "month": "2025-03",
@@ -3327,7 +3327,7 @@
         },
         {
           "month": "2025-04",
-          "score": 6
+          "score": 7
         },
         {
           "month": "2025-05",
@@ -3339,7 +3339,7 @@
         },
         {
           "month": "2025-07",
-          "score": 12
+          "score": 13
         },
         {
           "month": "2025-08",
@@ -3351,15 +3351,15 @@
         },
         {
           "month": "2025-10",
-          "score": 32
-        },
-        {
-          "month": "2025-11",
           "score": 31
         },
         {
+          "month": "2025-11",
+          "score": 32
+        },
+        {
           "month": "2025-12",
-          "score": 26
+          "score": 27
         },
         {
           "month": "2026-01",
@@ -3375,11 +3375,11 @@
         },
         {
           "month": "2026-04",
-          "score": 38
+          "score": 37
         },
         {
           "month": "2026-05",
-          "score": 38
+          "score": 44
         }
       ],
       "termTrends": {
@@ -3454,7 +3454,7 @@
           },
           {
             "month": "2024-04",
-            "trends": 5
+            "trends": 6
           },
           {
             "month": "2024-05",
@@ -3470,7 +3470,7 @@
           },
           {
             "month": "2024-08",
-            "trends": 4
+            "trends": 5
           },
           {
             "month": "2024-09",
@@ -3494,7 +3494,7 @@
           },
           {
             "month": "2025-02",
-            "trends": 6
+            "trends": 7
           },
           {
             "month": "2025-03",
@@ -3502,7 +3502,7 @@
           },
           {
             "month": "2025-04",
-            "trends": 6
+            "trends": 7
           },
           {
             "month": "2025-05",
@@ -3514,7 +3514,7 @@
           },
           {
             "month": "2025-07",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2025-08",
@@ -3526,15 +3526,15 @@
           },
           {
             "month": "2025-10",
-            "trends": 32
-          },
-          {
-            "month": "2025-11",
             "trends": 31
           },
           {
+            "month": "2025-11",
+            "trends": 32
+          },
+          {
             "month": "2025-12",
-            "trends": 26
+            "trends": 27
           },
           {
             "month": "2026-01",
@@ -3550,11 +3550,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 38
+            "trends": 37
           },
           {
             "month": "2026-05",
-            "trends": 38
+            "trends": 44
           }
         ]
       }
@@ -3571,7 +3571,7 @@
         },
         {
           "month": "2023-01",
-          "score": 26
+          "score": 0
         },
         {
           "month": "2023-02",
@@ -3595,7 +3595,7 @@
         },
         {
           "month": "2023-07",
-          "score": 15
+          "score": 0
         },
         {
           "month": "2023-08",
@@ -3631,15 +3631,15 @@
         },
         {
           "month": "2024-04",
-          "score": 0
+          "score": 28
         },
         {
           "month": "2024-05",
-          "score": 56
+          "score": 29
         },
         {
           "month": "2024-06",
-          "score": 35
+          "score": 0
         },
         {
           "month": "2024-07",
@@ -3647,23 +3647,23 @@
         },
         {
           "month": "2024-08",
-          "score": 42
+          "score": 36
         },
         {
           "month": "2024-09",
-          "score": 0
+          "score": 27
         },
         {
           "month": "2024-10",
-          "score": 31
+          "score": 0
         },
         {
           "month": "2024-11",
-          "score": 38
+          "score": 40
         },
         {
           "month": "2024-12",
-          "score": 38
+          "score": 35
         },
         {
           "month": "2025-01",
@@ -3675,7 +3675,7 @@
         },
         {
           "month": "2025-03",
-          "score": 42
+          "score": 43
         },
         {
           "month": "2025-04",
@@ -3683,19 +3683,19 @@
         },
         {
           "month": "2025-05",
-          "score": 0
+          "score": 33
         },
         {
           "month": "2025-06",
-          "score": 0
+          "score": 31
         },
         {
           "month": "2025-07",
-          "score": 49
+          "score": 39
         },
         {
           "month": "2025-08",
-          "score": 78
+          "score": 79
         },
         {
           "month": "2025-09",
@@ -3703,27 +3703,27 @@
         },
         {
           "month": "2025-10",
-          "score": 33
+          "score": 32
         },
         {
           "month": "2025-11",
-          "score": 43
+          "score": 48
         },
         {
           "month": "2025-12",
-          "score": 54
+          "score": 35
         },
         {
           "month": "2026-01",
-          "score": 46
+          "score": 48
         },
         {
           "month": "2026-02",
-          "score": 67
+          "score": 63
         },
         {
           "month": "2026-03",
-          "score": 92
+          "score": 87
         },
         {
           "month": "2026-04",
@@ -3746,7 +3746,7 @@
           },
           {
             "month": "2023-01",
-            "trends": 26
+            "trends": 0
           },
           {
             "month": "2023-02",
@@ -3806,15 +3806,15 @@
           },
           {
             "month": "2024-04",
-            "trends": 0
+            "trends": 28
           },
           {
             "month": "2024-05",
-            "trends": 56
+            "trends": 29
           },
           {
             "month": "2024-06",
-            "trends": 35
+            "trends": 0
           },
           {
             "month": "2024-07",
@@ -3822,23 +3822,23 @@
           },
           {
             "month": "2024-08",
-            "trends": 42
+            "trends": 36
           },
           {
             "month": "2024-09",
-            "trends": 0
+            "trends": 27
           },
           {
             "month": "2024-10",
-            "trends": 31
+            "trends": 0
           },
           {
             "month": "2024-11",
-            "trends": 38
+            "trends": 40
           },
           {
             "month": "2024-12",
-            "trends": 38
+            "trends": 35
           },
           {
             "month": "2025-01",
@@ -3850,7 +3850,7 @@
           },
           {
             "month": "2025-03",
-            "trends": 42
+            "trends": 43
           },
           {
             "month": "2025-04",
@@ -3858,19 +3858,19 @@
           },
           {
             "month": "2025-05",
-            "trends": 0
+            "trends": 33
           },
           {
             "month": "2025-06",
-            "trends": 0
+            "trends": 31
           },
           {
             "month": "2025-07",
-            "trends": 49
+            "trends": 39
           },
           {
             "month": "2025-08",
-            "trends": 78
+            "trends": 79
           },
           {
             "month": "2025-09",
@@ -3878,27 +3878,27 @@
           },
           {
             "month": "2025-10",
-            "trends": 33
+            "trends": 32
           },
           {
             "month": "2025-11",
-            "trends": 43
+            "trends": 48
           },
           {
             "month": "2025-12",
-            "trends": 54
+            "trends": 35
           },
           {
             "month": "2026-01",
-            "trends": 46
+            "trends": 42
           },
           {
             "month": "2026-02",
-            "trends": 67
+            "trends": 63
           },
           {
             "month": "2026-03",
-            "trends": 92
+            "trends": 87
           },
           {
             "month": "2026-04",
@@ -3906,7 +3906,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 95
+            "trends": 85
           }
         ],
         "LLM tool use": [
@@ -3944,7 +3944,7 @@
           },
           {
             "month": "2023-07",
-            "trends": 15
+            "trends": 0
           },
           {
             "month": "2023-08",
@@ -3996,7 +3996,7 @@
           },
           {
             "month": "2024-08",
-            "trends": 0
+            "trends": 12
           },
           {
             "month": "2024-09",
@@ -4044,39 +4044,39 @@
           },
           {
             "month": "2025-08",
-            "trends": 56
-          },
-          {
-            "month": "2025-09",
-            "trends": 30
-          },
-          {
-            "month": "2025-10",
-            "trends": 28
-          },
-          {
-            "month": "2025-11",
-            "trends": 36
-          },
-          {
-            "month": "2025-12",
-            "trends": 31
-          },
-          {
-            "month": "2026-01",
-            "trends": 46
-          },
-          {
-            "month": "2026-02",
             "trends": 54
           },
           {
+            "month": "2025-09",
+            "trends": 25
+          },
+          {
+            "month": "2025-10",
+            "trends": 26
+          },
+          {
+            "month": "2025-11",
+            "trends": 38
+          },
+          {
+            "month": "2025-12",
+            "trends": 30
+          },
+          {
+            "month": "2026-01",
+            "trends": 48
+          },
+          {
+            "month": "2026-02",
+            "trends": 41
+          },
+          {
             "month": "2026-03",
-            "trends": 75
+            "trends": 69
           },
           {
             "month": "2026-04",
-            "trends": 74
+            "trends": 79
           },
           {
             "month": "2026-05",
@@ -4201,19 +4201,19 @@
         },
         {
           "month": "2025-03",
-          "score": 18
+          "score": 17
         },
         {
           "month": "2025-04",
-          "score": 22
+          "score": 20
         },
         {
           "month": "2025-05",
-          "score": 25
+          "score": 21
         },
         {
           "month": "2025-06",
-          "score": 33
+          "score": 32
         },
         {
           "month": "2025-07",
@@ -4225,15 +4225,15 @@
         },
         {
           "month": "2025-09",
-          "score": 77
+          "score": 74
         },
         {
           "month": "2025-10",
-          "score": 71
+          "score": 70
         },
         {
           "month": "2025-11",
-          "score": 50
+          "score": 46
         },
         {
           "month": "2025-12",
@@ -4241,23 +4241,23 @@
         },
         {
           "month": "2026-01",
-          "score": 44
+          "score": 42
         },
         {
           "month": "2026-02",
-          "score": 70
+          "score": 67
         },
         {
           "month": "2026-03",
-          "score": 76
+          "score": 73
         },
         {
           "month": "2026-04",
-          "score": 71
+          "score": 68
         },
         {
           "month": "2026-05",
-          "score": 89
+          "score": 100
         }
       ],
       "termTrends": {
@@ -4400,15 +4400,15 @@
           },
           {
             "month": "2025-09",
-            "trends": 77
+            "trends": 74
           },
           {
             "month": "2025-10",
-            "trends": 71
+            "trends": 70
           },
           {
             "month": "2025-11",
-            "trends": 43
+            "trends": 42
           },
           {
             "month": "2025-12",
@@ -4416,15 +4416,15 @@
           },
           {
             "month": "2026-01",
-            "trends": 32
+            "trends": 33
           },
           {
             "month": "2026-02",
-            "trends": 50
+            "trends": 49
           },
           {
             "month": "2026-03",
-            "trends": 55
+            "trends": 57
           },
           {
             "month": "2026-04",
@@ -4432,7 +4432,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 64
+            "trends": 71
           }
         ],
         "MCP server": [
@@ -4550,19 +4550,19 @@
           },
           {
             "month": "2025-03",
-            "trends": 18
+            "trends": 17
           },
           {
             "month": "2025-04",
-            "trends": 22
+            "trends": 20
           },
           {
             "month": "2025-05",
-            "trends": 25
+            "trends": 21
           },
           {
             "month": "2025-06",
-            "trends": 33
+            "trends": 32
           },
           {
             "month": "2025-07",
@@ -4570,19 +4570,19 @@
           },
           {
             "month": "2025-08",
-            "trends": 100
+            "trends": 96
           },
           {
             "month": "2025-09",
-            "trends": 71
+            "trends": 68
           },
           {
             "month": "2025-10",
-            "trends": 62
+            "trends": 59
           },
           {
             "month": "2025-11",
-            "trends": 50
+            "trends": 46
           },
           {
             "month": "2025-12",
@@ -4590,23 +4590,23 @@
           },
           {
             "month": "2026-01",
-            "trends": 44
+            "trends": 42
           },
           {
             "month": "2026-02",
-            "trends": 70
+            "trends": 67
           },
           {
             "month": "2026-03",
-            "trends": 76
+            "trends": 73
           },
           {
             "month": "2026-04",
-            "trends": 71
+            "trends": 68
           },
           {
             "month": "2026-05",
-            "trends": 89
+            "trends": 100
           }
         ]
       }
@@ -4635,7 +4635,7 @@
         },
         {
           "month": "2023-04",
-          "score": 0
+          "score": 3
         },
         {
           "month": "2023-05",
@@ -4671,7 +4671,7 @@
         },
         {
           "month": "2024-01",
-          "score": 0
+          "score": 3
         },
         {
           "month": "2024-02",
@@ -4731,55 +4731,55 @@
         },
         {
           "month": "2025-04",
-          "score": 45
+          "score": 39
         },
         {
           "month": "2025-05",
-          "score": 23
+          "score": 21
         },
         {
           "month": "2025-06",
-          "score": 33
+          "score": 31
         },
         {
           "month": "2025-07",
-          "score": 24
+          "score": 23
         },
         {
           "month": "2025-08",
-          "score": 83
+          "score": 73
         },
         {
           "month": "2025-09",
-          "score": 53
+          "score": 47
         },
         {
           "month": "2025-10",
-          "score": 62
+          "score": 56
         },
         {
           "month": "2025-11",
-          "score": 51
+          "score": 46
         },
         {
           "month": "2025-12",
-          "score": 40
+          "score": 33
         },
         {
           "month": "2026-01",
-          "score": 42
+          "score": 37
         },
         {
           "month": "2026-02",
-          "score": 59
+          "score": 51
         },
         {
           "month": "2026-03",
-          "score": 91
+          "score": 81
         },
         {
           "month": "2026-04",
-          "score": 90
+          "score": 80
         },
         {
           "month": "2026-05",
@@ -4906,7 +4906,7 @@
           },
           {
             "month": "2025-04",
-            "trends": 21
+            "trends": 19
           },
           {
             "month": "2025-05",
@@ -4914,7 +4914,7 @@
           },
           {
             "month": "2025-06",
-            "trends": 0
+            "trends": 9
           },
           {
             "month": "2025-07",
@@ -4922,15 +4922,15 @@
           },
           {
             "month": "2025-08",
-            "trends": 20
+            "trends": 15
           },
           {
             "month": "2025-09",
-            "trends": 23
+            "trends": 18
           },
           {
             "month": "2025-10",
-            "trends": 21
+            "trends": 19
           },
           {
             "month": "2025-11",
@@ -4938,7 +4938,7 @@
           },
           {
             "month": "2025-12",
-            "trends": 21
+            "trends": 23
           },
           {
             "month": "2026-01",
@@ -4946,15 +4946,15 @@
           },
           {
             "month": "2026-02",
-            "trends": 37
+            "trends": 33
           },
           {
             "month": "2026-03",
-            "trends": 49
+            "trends": 47
           },
           {
             "month": "2026-04",
-            "trends": 76
+            "trends": 74
           },
           {
             "month": "2026-05",
@@ -4984,7 +4984,7 @@
           },
           {
             "month": "2023-04",
-            "trends": 0
+            "trends": 3
           },
           {
             "month": "2023-05",
@@ -5020,7 +5020,7 @@
           },
           {
             "month": "2024-01",
-            "trends": 0
+            "trends": 3
           },
           {
             "month": "2024-02",
@@ -5080,55 +5080,55 @@
           },
           {
             "month": "2025-04",
-            "trends": 45
+            "trends": 39
           },
           {
             "month": "2025-05",
-            "trends": 23
+            "trends": 21
           },
           {
             "month": "2025-06",
-            "trends": 33
+            "trends": 31
           },
           {
             "month": "2025-07",
-            "trends": 24
+            "trends": 23
           },
           {
             "month": "2025-08",
-            "trends": 83
+            "trends": 73
           },
           {
             "month": "2025-09",
-            "trends": 53
+            "trends": 47
           },
           {
             "month": "2025-10",
-            "trends": 62
+            "trends": 56
           },
           {
             "month": "2025-11",
-            "trends": 51
+            "trends": 46
           },
           {
             "month": "2025-12",
-            "trends": 40
+            "trends": 33
           },
           {
             "month": "2026-01",
-            "trends": 42
+            "trends": 37
           },
           {
             "month": "2026-02",
-            "trends": 59
+            "trends": 51
           },
           {
             "month": "2026-03",
-            "trends": 91
+            "trends": 81
           },
           {
             "month": "2026-04",
-            "trends": 90
+            "trends": 80
           },
           {
             "month": "2026-05",
@@ -5181,7 +5181,7 @@
         },
         {
           "month": "2023-09",
-          "score": 0
+          "score": 58
         },
         {
           "month": "2023-10",
@@ -5193,11 +5193,11 @@
         },
         {
           "month": "2023-12",
-          "score": 1
+          "score": 0
         },
         {
           "month": "2024-01",
-          "score": 2
+          "score": 0
         },
         {
           "month": "2024-02",
@@ -5229,7 +5229,7 @@
         },
         {
           "month": "2024-09",
-          "score": 1
+          "score": 0
         },
         {
           "month": "2024-10",
@@ -5249,7 +5249,7 @@
         },
         {
           "month": "2025-02",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2025-03",
@@ -5277,7 +5277,7 @@
         },
         {
           "month": "2025-09",
-          "score": 0
+          "score": 2
         },
         {
           "month": "2025-10",
@@ -5285,7 +5285,7 @@
         },
         {
           "month": "2025-11",
-          "score": 32
+          "score": 31
         },
         {
           "month": "2025-12",
@@ -5293,19 +5293,19 @@
         },
         {
           "month": "2026-01",
-          "score": 54
+          "score": 52
         },
         {
           "month": "2026-02",
-          "score": 62
+          "score": 61
         },
         {
           "month": "2026-03",
-          "score": 96
+          "score": 99
         },
         {
           "month": "2026-04",
-          "score": 95
+          "score": 92
         },
         {
           "month": "2026-05",
@@ -5372,7 +5372,7 @@
           },
           {
             "month": "2024-01",
-            "trends": 2
+            "trends": 0
           },
           {
             "month": "2024-02",
@@ -5452,7 +5452,7 @@
           },
           {
             "month": "2025-09",
-            "trends": 0
+            "trends": 2
           },
           {
             "month": "2025-10",
@@ -5460,7 +5460,7 @@
           },
           {
             "month": "2025-11",
-            "trends": 14
+            "trends": 13
           },
           {
             "month": "2025-12",
@@ -5472,7 +5472,7 @@
           },
           {
             "month": "2026-02",
-            "trends": 29
+            "trends": 28
           },
           {
             "month": "2026-03",
@@ -5480,11 +5480,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 40
+            "trends": 39
           },
           {
             "month": "2026-05",
-            "trends": 42
+            "trends": 48
           }
         ],
         "Claude Skills": [
@@ -5542,7 +5542,7 @@
           },
           {
             "month": "2023-12",
-            "trends": 1
+            "trends": 0
           },
           {
             "month": "2024-01",
@@ -5578,7 +5578,7 @@
           },
           {
             "month": "2024-09",
-            "trends": 1
+            "trends": 0
           },
           {
             "month": "2024-10",
@@ -5598,7 +5598,7 @@
           },
           {
             "month": "2025-02",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2025-03",
@@ -5630,11 +5630,11 @@
           },
           {
             "month": "2025-10",
-            "trends": 67
+            "trends": 66
           },
           {
             "month": "2025-11",
-            "trends": 32
+            "trends": 31
           },
           {
             "month": "2025-12",
@@ -5642,19 +5642,19 @@
           },
           {
             "month": "2026-01",
-            "trends": 54
+            "trends": 52
           },
           {
             "month": "2026-02",
-            "trends": 62
+            "trends": 61
           },
           {
             "month": "2026-03",
-            "trends": 96
+            "trends": 99
           },
           {
             "month": "2026-04",
-            "trends": 95
+            "trends": 92
           },
           {
             "month": "2026-05",
@@ -5704,7 +5704,7 @@
           },
           {
             "month": "2023-09",
-            "trends": 0
+            "trends": 58
           },
           {
             "month": "2023-10",
@@ -5824,11 +5824,11 @@
           },
           {
             "month": "2026-03",
-            "trends": 44
+            "trends": 37
           },
           {
             "month": "2026-04",
-            "trends": 61
+            "trends": 42
           },
           {
             "month": "2026-05",
@@ -5929,7 +5929,7 @@
         },
         {
           "month": "2024-09",
-          "score": 7
+          "score": 0
         },
         {
           "month": "2024-10",
@@ -5945,7 +5945,7 @@
         },
         {
           "month": "2025-01",
-          "score": 34
+          "score": 0
         },
         {
           "month": "2025-02",
@@ -5985,7 +5985,7 @@
         },
         {
           "month": "2025-11",
-          "score": 0
+          "score": 43
         },
         {
           "month": "2025-12",
@@ -6001,7 +6001,7 @@
         },
         {
           "month": "2026-03",
-          "score": 100
+          "score": 75
         },
         {
           "month": "2026-04",
@@ -6009,7 +6009,7 @@
         },
         {
           "month": "2026-05",
-          "score": 84
+          "score": 100
         }
       ],
       "termTrends": {
@@ -6104,7 +6104,7 @@
           },
           {
             "month": "2024-09",
-            "trends": 7
+            "trends": 0
           },
           {
             "month": "2024-10",
@@ -6176,7 +6176,7 @@
           },
           {
             "month": "2026-03",
-            "trends": 35
+            "trends": 36
           },
           {
             "month": "2026-04",
@@ -6294,7 +6294,7 @@
           },
           {
             "month": "2025-01",
-            "trends": 34
+            "trends": 0
           },
           {
             "month": "2025-02",
@@ -6334,7 +6334,7 @@
           },
           {
             "month": "2025-11",
-            "trends": 0
+            "trends": 43
           },
           {
             "month": "2025-12",
@@ -6350,15 +6350,15 @@
           },
           {
             "month": "2026-03",
-            "trends": 100
+            "trends": 75
           },
           {
             "month": "2026-04",
-            "trends": 93
+            "trends": 90
           },
           {
             "month": "2026-05",
-            "trends": 84
+            "trends": 100
           }
         ]
       }
@@ -6379,7 +6379,7 @@
         },
         {
           "month": "2023-02",
-          "score": 9
+          "score": 0
         },
         {
           "month": "2023-03",
@@ -6387,11 +6387,11 @@
         },
         {
           "month": "2023-04",
-          "score": 0
+          "score": 9
         },
         {
           "month": "2023-05",
-          "score": 15
+          "score": 9
         },
         {
           "month": "2023-06",
@@ -6403,19 +6403,19 @@
         },
         {
           "month": "2023-08",
-          "score": 16
+          "score": 15
         },
         {
           "month": "2023-09",
-          "score": 20
+          "score": 15
         },
         {
           "month": "2023-10",
-          "score": 17
+          "score": 18
         },
         {
           "month": "2023-11",
-          "score": 19
+          "score": 20
         },
         {
           "month": "2023-12",
@@ -6423,11 +6423,11 @@
         },
         {
           "month": "2024-01",
-          "score": 23
+          "score": 24
         },
         {
           "month": "2024-02",
-          "score": 32
+          "score": 26
         },
         {
           "month": "2024-03",
@@ -6435,7 +6435,7 @@
         },
         {
           "month": "2024-04",
-          "score": 37
+          "score": 29
         },
         {
           "month": "2024-05",
@@ -6443,23 +6443,23 @@
         },
         {
           "month": "2024-06",
-          "score": 35
+          "score": 30
         },
         {
           "month": "2024-07",
-          "score": 33
+          "score": 32
         },
         {
           "month": "2024-08",
-          "score": 25
-        },
-        {
-          "month": "2024-09",
           "score": 24
         },
         {
+          "month": "2024-09",
+          "score": 25
+        },
+        {
           "month": "2024-10",
-          "score": 32
+          "score": 35
         },
         {
           "month": "2024-11",
@@ -6467,11 +6467,11 @@
         },
         {
           "month": "2024-12",
-          "score": 35
+          "score": 29
         },
         {
           "month": "2025-01",
-          "score": 25
+          "score": 27
         },
         {
           "month": "2025-02",
@@ -6479,43 +6479,43 @@
         },
         {
           "month": "2025-03",
-          "score": 34
+          "score": 27
         },
         {
           "month": "2025-04",
-          "score": 36
-        },
-        {
-          "month": "2025-05",
-          "score": 28
-        },
-        {
-          "month": "2025-06",
-          "score": 42
-        },
-        {
-          "month": "2025-07",
           "score": 34
         },
         {
+          "month": "2025-05",
+          "score": 29
+        },
+        {
+          "month": "2025-06",
+          "score": 45
+        },
+        {
+          "month": "2025-07",
+          "score": 37
+        },
+        {
           "month": "2025-08",
-          "score": 64
+          "score": 67
         },
         {
           "month": "2025-09",
-          "score": 42
+          "score": 40
         },
         {
           "month": "2025-10",
-          "score": 38
+          "score": 37
         },
         {
           "month": "2025-11",
-          "score": 39
+          "score": 37
         },
         {
           "month": "2025-12",
-          "score": 45
+          "score": 48
         },
         {
           "month": "2026-01",
@@ -6527,11 +6527,11 @@
         },
         {
           "month": "2026-03",
-          "score": 64
+          "score": 65
         },
         {
           "month": "2026-04",
-          "score": 82
+          "score": 77
         },
         {
           "month": "2026-05",
@@ -6554,7 +6554,7 @@
           },
           {
             "month": "2023-02",
-            "trends": 9
+            "trends": 0
           },
           {
             "month": "2023-03",
@@ -6562,11 +6562,11 @@
           },
           {
             "month": "2023-04",
-            "trends": 0
+            "trends": 9
           },
           {
             "month": "2023-05",
-            "trends": 15
+            "trends": 9
           },
           {
             "month": "2023-06",
@@ -6578,19 +6578,19 @@
           },
           {
             "month": "2023-08",
-            "trends": 16
+            "trends": 15
           },
           {
             "month": "2023-09",
-            "trends": 20
+            "trends": 15
           },
           {
             "month": "2023-10",
-            "trends": 17
+            "trends": 18
           },
           {
             "month": "2023-11",
-            "trends": 19
+            "trends": 20
           },
           {
             "month": "2023-12",
@@ -6598,11 +6598,11 @@
           },
           {
             "month": "2024-01",
-            "trends": 23
+            "trends": 24
           },
           {
             "month": "2024-02",
-            "trends": 32
+            "trends": 26
           },
           {
             "month": "2024-03",
@@ -6610,7 +6610,7 @@
           },
           {
             "month": "2024-04",
-            "trends": 37
+            "trends": 29
           },
           {
             "month": "2024-05",
@@ -6618,23 +6618,23 @@
           },
           {
             "month": "2024-06",
-            "trends": 35
+            "trends": 30
           },
           {
             "month": "2024-07",
-            "trends": 33
+            "trends": 32
           },
           {
             "month": "2024-08",
-            "trends": 25
-          },
-          {
-            "month": "2024-09",
             "trends": 24
           },
           {
+            "month": "2024-09",
+            "trends": 25
+          },
+          {
             "month": "2024-10",
-            "trends": 32
+            "trends": 35
           },
           {
             "month": "2024-11",
@@ -6642,11 +6642,11 @@
           },
           {
             "month": "2024-12",
-            "trends": 35
+            "trends": 29
           },
           {
             "month": "2025-01",
-            "trends": 25
+            "trends": 27
           },
           {
             "month": "2025-02",
@@ -6654,43 +6654,43 @@
           },
           {
             "month": "2025-03",
-            "trends": 34
+            "trends": 27
           },
           {
             "month": "2025-04",
-            "trends": 36
-          },
-          {
-            "month": "2025-05",
-            "trends": 28
-          },
-          {
-            "month": "2025-06",
-            "trends": 42
-          },
-          {
-            "month": "2025-07",
             "trends": 34
           },
           {
+            "month": "2025-05",
+            "trends": 29
+          },
+          {
+            "month": "2025-06",
+            "trends": 45
+          },
+          {
+            "month": "2025-07",
+            "trends": 37
+          },
+          {
             "month": "2025-08",
-            "trends": 64
+            "trends": 67
           },
           {
             "month": "2025-09",
-            "trends": 42
+            "trends": 40
           },
           {
             "month": "2025-10",
-            "trends": 38
+            "trends": 37
           },
           {
             "month": "2025-11",
-            "trends": 39
+            "trends": 37
           },
           {
             "month": "2025-12",
-            "trends": 45
+            "trends": 48
           },
           {
             "month": "2026-01",
@@ -6702,11 +6702,11 @@
           },
           {
             "month": "2026-03",
-            "trends": 64
+            "trends": 65
           },
           {
             "month": "2026-04",
-            "trends": 82
+            "trends": 77
           },
           {
             "month": "2026-05",
@@ -6747,7 +6747,7 @@
         },
         {
           "month": "2023-06",
-          "score": 1
+          "score": 0
         },
         {
           "month": "2023-07",
@@ -6767,7 +6767,7 @@
         },
         {
           "month": "2023-11",
-          "score": 2
+          "score": 1
         },
         {
           "month": "2023-12",
@@ -6779,7 +6779,7 @@
         },
         {
           "month": "2024-02",
-          "score": 3
+          "score": 2
         },
         {
           "month": "2024-03",
@@ -6787,31 +6787,31 @@
         },
         {
           "month": "2024-04",
-          "score": 22
-        },
-        {
-          "month": "2024-05",
-          "score": 4
-        },
-        {
-          "month": "2024-06",
-          "score": 4
-        },
-        {
-          "month": "2024-07",
-          "score": 4
-        },
-        {
-          "month": "2024-08",
           "score": 3
         },
         {
+          "month": "2024-05",
+          "score": 3
+        },
+        {
+          "month": "2024-06",
+          "score": 3
+        },
+        {
+          "month": "2024-07",
+          "score": 3
+        },
+        {
+          "month": "2024-08",
+          "score": 19
+        },
+        {
           "month": "2024-09",
-          "score": 4
+          "score": 22
         },
         {
           "month": "2024-10",
-          "score": 5
+          "score": 4
         },
         {
           "month": "2024-11",
@@ -6831,7 +6831,7 @@
         },
         {
           "month": "2025-03",
-          "score": 26
+          "score": 32
         },
         {
           "month": "2025-04",
@@ -6839,27 +6839,27 @@
         },
         {
           "month": "2025-05",
-          "score": 26
+          "score": 22
         },
         {
           "month": "2025-06",
-          "score": 38
+          "score": 30
         },
         {
           "month": "2025-07",
-          "score": 35
+          "score": 36
         },
         {
           "month": "2025-08",
-          "score": 59
+          "score": 57
         },
         {
           "month": "2025-09",
-          "score": 66
+          "score": 68
         },
         {
           "month": "2025-10",
-          "score": 59
+          "score": 58
         },
         {
           "month": "2025-11",
@@ -6871,19 +6871,19 @@
         },
         {
           "month": "2026-01",
-          "score": 85
+          "score": 56
         },
         {
           "month": "2026-02",
-          "score": 80
+          "score": 74
         },
         {
           "month": "2026-03",
-          "score": 100
+          "score": 84
         },
         {
           "month": "2026-04",
-          "score": 92
+          "score": 86
         },
         {
           "month": "2026-05",
@@ -7022,19 +7022,19 @@
           },
           {
             "month": "2025-07",
-            "trends": 35
+            "trends": 36
           },
           {
             "month": "2025-08",
-            "trends": 59
+            "trends": 57
           },
           {
             "month": "2025-09",
-            "trends": 66
+            "trends": 68
           },
           {
             "month": "2025-10",
-            "trends": 59
+            "trends": 58
           },
           {
             "month": "2025-11",
@@ -7050,7 +7050,7 @@
           },
           {
             "month": "2026-02",
-            "trends": 73
+            "trends": 74
           },
           {
             "month": "2026-03",
@@ -7058,7 +7058,7 @@
           },
           {
             "month": "2026-04",
-            "trends": 85
+            "trends": 86
           },
           {
             "month": "2026-05",
@@ -7096,7 +7096,7 @@
           },
           {
             "month": "2023-06",
-            "trends": 1
+            "trends": 0
           },
           {
             "month": "2023-07",
@@ -7116,7 +7116,7 @@
           },
           {
             "month": "2023-11",
-            "trends": 2
+            "trends": 1
           },
           {
             "month": "2023-12",
@@ -7128,7 +7128,7 @@
           },
           {
             "month": "2024-02",
-            "trends": 3
+            "trends": 2
           },
           {
             "month": "2024-03",
@@ -7136,19 +7136,19 @@
           },
           {
             "month": "2024-04",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2024-05",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2024-06",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2024-07",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2024-08",
@@ -7160,7 +7160,7 @@
           },
           {
             "month": "2024-10",
-            "trends": 5
+            "trends": 4
           },
           {
             "month": "2024-11",
@@ -7176,7 +7176,7 @@
           },
           {
             "month": "2025-02",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2025-03",
@@ -7188,7 +7188,7 @@
           },
           {
             "month": "2025-05",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2025-06",
@@ -7196,43 +7196,43 @@
           },
           {
             "month": "2025-07",
-            "trends": 11
+            "trends": 10
           },
           {
             "month": "2025-08",
-            "trends": 27
-          },
-          {
-            "month": "2025-09",
-            "trends": 17
-          },
-          {
-            "month": "2025-10",
-            "trends": 18
-          },
-          {
-            "month": "2025-11",
-            "trends": 20
-          },
-          {
-            "month": "2025-12",
             "trends": 25
           },
           {
+            "month": "2025-09",
+            "trends": 15
+          },
+          {
+            "month": "2025-10",
+            "trends": 16
+          },
+          {
+            "month": "2025-11",
+            "trends": 18
+          },
+          {
+            "month": "2025-12",
+            "trends": 23
+          },
+          {
             "month": "2026-01",
-            "trends": 35
+            "trends": 32
           },
           {
             "month": "2026-02",
-            "trends": 58
+            "trends": 53
           },
           {
             "month": "2026-03",
-            "trends": 64
+            "trends": 59
           },
           {
             "month": "2026-04",
-            "trends": 79
+            "trends": 71
           },
           {
             "month": "2026-05",
@@ -7310,7 +7310,7 @@
           },
           {
             "month": "2024-04",
-            "trends": 22
+            "trends": 0
           },
           {
             "month": "2024-05",
@@ -7326,11 +7326,11 @@
           },
           {
             "month": "2024-08",
-            "trends": 0
+            "trends": 19
           },
           {
             "month": "2024-09",
-            "trends": 0
+            "trends": 22
           },
           {
             "month": "2024-10",
@@ -7354,7 +7354,7 @@
           },
           {
             "month": "2025-03",
-            "trends": 26
+            "trends": 32
           },
           {
             "month": "2025-04",
@@ -7362,51 +7362,51 @@
           },
           {
             "month": "2025-05",
-            "trends": 26
+            "trends": 0
           },
           {
             "month": "2025-06",
-            "trends": 38
+            "trends": 23
           },
           {
             "month": "2025-07",
-            "trends": 28
+            "trends": 21
           },
           {
             "month": "2025-08",
-            "trends": 55
+            "trends": 51
           },
           {
             "month": "2025-09",
-            "trends": 36
+            "trends": 28
           },
           {
             "month": "2025-10",
-            "trends": 35
+            "trends": 31
           },
           {
             "month": "2025-11",
-            "trends": 47
+            "trends": 38
           },
           {
             "month": "2025-12",
-            "trends": 52
+            "trends": 41
           },
           {
             "month": "2026-01",
-            "trends": 85
+            "trends": 56
           },
           {
             "month": "2026-02",
-            "trends": 80
+            "trends": 58
           },
           {
             "month": "2026-03",
-            "trends": 100
+            "trends": 84
           },
           {
             "month": "2026-04",
-            "trends": 92
+            "trends": 78
           },
           {
             "month": "2026-05",
@@ -7423,7 +7423,7 @@
         },
         {
           "month": "2022-12",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2023-01",
@@ -7435,7 +7435,7 @@
         },
         {
           "month": "2023-03",
-          "score": 17
+          "score": 21
         },
         {
           "month": "2023-04",
@@ -7443,7 +7443,7 @@
         },
         {
           "month": "2023-05",
-          "score": 18
+          "score": 17
         },
         {
           "month": "2023-06",
@@ -7451,11 +7451,11 @@
         },
         {
           "month": "2023-07",
-          "score": 16
+          "score": 15
         },
         {
           "month": "2023-08",
-          "score": 9
+          "score": 8
         },
         {
           "month": "2023-09",
@@ -7463,7 +7463,7 @@
         },
         {
           "month": "2023-10",
-          "score": 10
+          "score": 11
         },
         {
           "month": "2023-11",
@@ -7471,19 +7471,19 @@
         },
         {
           "month": "2023-12",
-          "score": 19
+          "score": 17
         },
         {
           "month": "2024-01",
-          "score": 21
+          "score": 20
         },
         {
           "month": "2024-02",
-          "score": 28
+          "score": 29
         },
         {
           "month": "2024-03",
-          "score": 26
+          "score": 25
         },
         {
           "month": "2024-04",
@@ -7491,7 +7491,7 @@
         },
         {
           "month": "2024-05",
-          "score": 29
+          "score": 30
         },
         {
           "month": "2024-06",
@@ -7499,7 +7499,7 @@
         },
         {
           "month": "2024-07",
-          "score": 15
+          "score": 17
         },
         {
           "month": "2024-08",
@@ -7507,11 +7507,11 @@
         },
         {
           "month": "2024-09",
-          "score": 23
+          "score": 24
         },
         {
           "month": "2024-10",
-          "score": 44
+          "score": 45
         },
         {
           "month": "2024-11",
@@ -7519,7 +7519,7 @@
         },
         {
           "month": "2024-12",
-          "score": 42
+          "score": 40
         },
         {
           "month": "2025-01",
@@ -7531,11 +7531,11 @@
         },
         {
           "month": "2025-03",
-          "score": 43
+          "score": 42
         },
         {
           "month": "2025-04",
-          "score": 42
+          "score": 41
         },
         {
           "month": "2025-05",
@@ -7543,15 +7543,15 @@
         },
         {
           "month": "2025-06",
-          "score": 47
+          "score": 48
         },
         {
           "month": "2025-07",
-          "score": 43
+          "score": 44
         },
         {
           "month": "2025-08",
-          "score": 99
+          "score": 100
         },
         {
           "month": "2025-09",
@@ -7563,7 +7563,7 @@
         },
         {
           "month": "2025-11",
-          "score": 90
+          "score": 89
         },
         {
           "month": "2025-12",
@@ -7575,19 +7575,19 @@
         },
         {
           "month": "2026-02",
-          "score": 73
+          "score": 72
         },
         {
           "month": "2026-03",
-          "score": 84
-        },
-        {
-          "month": "2026-04",
           "score": 85
         },
         {
+          "month": "2026-04",
+          "score": 81
+        },
+        {
           "month": "2026-05",
-          "score": 76
+          "score": 77
         }
       ],
       "termTrends": {
@@ -7598,7 +7598,7 @@
           },
           {
             "month": "2022-12",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2023-01",
@@ -7614,11 +7614,11 @@
           },
           {
             "month": "2023-04",
-            "trends": 3
+            "trends": 4
           },
           {
             "month": "2023-05",
-            "trends": 18
+            "trends": 17
           },
           {
             "month": "2023-06",
@@ -7626,11 +7626,11 @@
           },
           {
             "month": "2023-07",
-            "trends": 16
+            "trends": 15
           },
           {
             "month": "2023-08",
-            "trends": 9
+            "trends": 8
           },
           {
             "month": "2023-09",
@@ -7638,7 +7638,7 @@
           },
           {
             "month": "2023-10",
-            "trends": 10
+            "trends": 11
           },
           {
             "month": "2023-11",
@@ -7650,11 +7650,11 @@
           },
           {
             "month": "2024-01",
-            "trends": 15
+            "trends": 14
           },
           {
             "month": "2024-02",
-            "trends": 14
+            "trends": 15
           },
           {
             "month": "2024-03",
@@ -7666,7 +7666,7 @@
           },
           {
             "month": "2024-05",
-            "trends": 12
+            "trends": 11
           },
           {
             "month": "2024-06",
@@ -7674,19 +7674,19 @@
           },
           {
             "month": "2024-07",
-            "trends": 8
+            "trends": 9
           },
           {
             "month": "2024-08",
-            "trends": 8
+            "trends": 7
           },
           {
             "month": "2024-09",
-            "trends": 8
+            "trends": 9
           },
           {
             "month": "2024-10",
-            "trends": 8
+            "trends": 9
           },
           {
             "month": "2024-11",
@@ -7698,7 +7698,7 @@
           },
           {
             "month": "2025-01",
-            "trends": 11
+            "trends": 10
           },
           {
             "month": "2025-02",
@@ -7722,11 +7722,11 @@
           },
           {
             "month": "2025-07",
-            "trends": 23
+            "trends": 21
           },
           {
             "month": "2025-08",
-            "trends": 99
+            "trends": 100
           },
           {
             "month": "2025-09",
@@ -7738,11 +7738,11 @@
           },
           {
             "month": "2025-11",
-            "trends": 50
+            "trends": 49
           },
           {
             "month": "2025-12",
-            "trends": 55
+            "trends": 54
           },
           {
             "month": "2026-01",
@@ -7750,7 +7750,7 @@
           },
           {
             "month": "2026-02",
-            "trends": 64
+            "trends": 62
           },
           {
             "month": "2026-03",
@@ -7784,7 +7784,7 @@
           },
           {
             "month": "2023-03",
-            "trends": 17
+            "trends": 21
           },
           {
             "month": "2023-04",
@@ -7820,19 +7820,19 @@
           },
           {
             "month": "2023-12",
-            "trends": 19
+            "trends": 17
           },
           {
             "month": "2024-01",
-            "trends": 21
+            "trends": 20
           },
           {
             "month": "2024-02",
-            "trends": 28
+            "trends": 29
           },
           {
             "month": "2024-03",
-            "trends": 26
+            "trends": 25
           },
           {
             "month": "2024-04",
@@ -7840,7 +7840,7 @@
           },
           {
             "month": "2024-05",
-            "trends": 29
+            "trends": 30
           },
           {
             "month": "2024-06",
@@ -7848,7 +7848,7 @@
           },
           {
             "month": "2024-07",
-            "trends": 15
+            "trends": 17
           },
           {
             "month": "2024-08",
@@ -7856,11 +7856,11 @@
           },
           {
             "month": "2024-09",
-            "trends": 23
+            "trends": 24
           },
           {
             "month": "2024-10",
-            "trends": 44
+            "trends": 45
           },
           {
             "month": "2024-11",
@@ -7868,7 +7868,7 @@
           },
           {
             "month": "2024-12",
-            "trends": 42
+            "trends": 40
           },
           {
             "month": "2025-01",
@@ -7880,11 +7880,11 @@
           },
           {
             "month": "2025-03",
-            "trends": 43
+            "trends": 42
           },
           {
             "month": "2025-04",
-            "trends": 42
+            "trends": 41
           },
           {
             "month": "2025-05",
@@ -7892,15 +7892,15 @@
           },
           {
             "month": "2025-06",
-            "trends": 47
+            "trends": 48
           },
           {
             "month": "2025-07",
-            "trends": 43
+            "trends": 44
           },
           {
             "month": "2025-08",
-            "trends": 75
+            "trends": 77
           },
           {
             "month": "2025-09",
@@ -7908,11 +7908,11 @@
           },
           {
             "month": "2025-10",
-            "trends": 93
+            "trends": 94
           },
           {
             "month": "2025-11",
-            "trends": 90
+            "trends": 89
           },
           {
             "month": "2025-12",
@@ -7924,19 +7924,19 @@
           },
           {
             "month": "2026-02",
-            "trends": 73
+            "trends": 72
           },
           {
             "month": "2026-03",
-            "trends": 84
-          },
-          {
-            "month": "2026-04",
             "trends": 85
           },
           {
+            "month": "2026-04",
+            "trends": 81
+          },
+          {
             "month": "2026-05",
-            "trends": 76
+            "trends": 77
           }
         ]
       }
@@ -8057,31 +8057,31 @@
         },
         {
           "month": "2025-03",
-          "score": 35
+          "score": 37
         },
         {
           "month": "2025-04",
-          "score": 30
+          "score": 32
         },
         {
           "month": "2025-05",
-          "score": 30
-        },
-        {
-          "month": "2025-06",
           "score": 29
         },
         {
+          "month": "2025-06",
+          "score": 31
+        },
+        {
           "month": "2025-07",
-          "score": 27
+          "score": 28
         },
         {
           "month": "2025-08",
-          "score": 81
+          "score": 87
         },
         {
           "month": "2025-09",
-          "score": 45
+          "score": 49
         },
         {
           "month": "2025-10",
@@ -8097,23 +8097,23 @@
         },
         {
           "month": "2026-01",
-          "score": 28
+          "score": 29
         },
         {
           "month": "2026-02",
-          "score": 91
+          "score": 95
         },
         {
           "month": "2026-03",
-          "score": 37
+          "score": 39
         },
         {
           "month": "2026-04",
-          "score": 36
+          "score": 37
         },
         {
           "month": "2026-05",
-          "score": 40
+          "score": 43
         }
       ],
       "termTrends": {
@@ -8232,31 +8232,31 @@
           },
           {
             "month": "2025-03",
-            "trends": 35
+            "trends": 37
           },
           {
             "month": "2025-04",
-            "trends": 30
+            "trends": 32
           },
           {
             "month": "2025-05",
-            "trends": 30
-          },
-          {
-            "month": "2025-06",
             "trends": 29
           },
           {
+            "month": "2025-06",
+            "trends": 31
+          },
+          {
             "month": "2025-07",
-            "trends": 27
+            "trends": 28
           },
           {
             "month": "2025-08",
-            "trends": 81
+            "trends": 87
           },
           {
             "month": "2025-09",
-            "trends": 45
+            "trends": 49
           },
           {
             "month": "2025-10",
@@ -8272,23 +8272,23 @@
           },
           {
             "month": "2026-01",
-            "trends": 28
+            "trends": 29
           },
           {
             "month": "2026-02",
-            "trends": 91
+            "trends": 95
           },
           {
             "month": "2026-03",
-            "trends": 37
+            "trends": 39
           },
           {
             "month": "2026-04",
-            "trends": 36
+            "trends": 37
           },
           {
             "month": "2026-05",
-            "trends": 40
+            "trends": 43
           }
         ]
       }
@@ -8409,11 +8409,11 @@
         },
         {
           "month": "2025-03",
-          "score": 54
+          "score": 57
         },
         {
           "month": "2025-04",
-          "score": 41
+          "score": 43
         },
         {
           "month": "2025-05",
@@ -8421,39 +8421,39 @@
         },
         {
           "month": "2025-06",
-          "score": 45
+          "score": 46
         },
         {
           "month": "2025-07",
-          "score": 51
+          "score": 53
         },
         {
           "month": "2025-08",
-          "score": 71
+          "score": 72
         },
         {
           "month": "2025-09",
-          "score": 61
-        },
-        {
-          "month": "2025-10",
           "score": 60
         },
         {
+          "month": "2025-10",
+          "score": 62
+        },
+        {
           "month": "2025-11",
-          "score": 61
+          "score": 60
         },
         {
           "month": "2025-12",
-          "score": 52
+          "score": 55
         },
         {
           "month": "2026-01",
-          "score": 74
+          "score": 78
         },
         {
           "month": "2026-02",
-          "score": 89
+          "score": 87
         },
         {
           "month": "2026-03",
@@ -8461,11 +8461,11 @@
         },
         {
           "month": "2026-04",
-          "score": 85
+          "score": 89
         },
         {
           "month": "2026-05",
-          "score": 92
+          "score": 93
         }
       ],
       "termTrends": {
@@ -8584,11 +8584,11 @@
           },
           {
             "month": "2025-03",
-            "trends": 54
+            "trends": 57
           },
           {
             "month": "2025-04",
-            "trends": 41
+            "trends": 43
           },
           {
             "month": "2025-05",
@@ -8596,39 +8596,39 @@
           },
           {
             "month": "2025-06",
-            "trends": 45
+            "trends": 46
           },
           {
             "month": "2025-07",
-            "trends": 51
+            "trends": 53
           },
           {
             "month": "2025-08",
-            "trends": 71
+            "trends": 72
           },
           {
             "month": "2025-09",
-            "trends": 61
-          },
-          {
-            "month": "2025-10",
             "trends": 60
           },
           {
+            "month": "2025-10",
+            "trends": 62
+          },
+          {
             "month": "2025-11",
-            "trends": 61
+            "trends": 60
           },
           {
             "month": "2025-12",
-            "trends": 52
+            "trends": 55
           },
           {
             "month": "2026-01",
-            "trends": 74
+            "trends": 78
           },
           {
             "month": "2026-02",
-            "trends": 89
+            "trends": 87
           },
           {
             "month": "2026-03",
@@ -8636,11 +8636,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 85
+            "trends": 89
           },
           {
             "month": "2026-05",
-            "trends": 92
+            "trends": 93
           }
         ]
       }
@@ -8673,7 +8673,7 @@
         },
         {
           "month": "2023-05",
-          "score": 21
+          "score": 22
         },
         {
           "month": "2023-06",
@@ -8681,15 +8681,15 @@
         },
         {
           "month": "2023-07",
-          "score": 26
+          "score": 27
         },
         {
           "month": "2023-08",
-          "score": 25
+          "score": 24
         },
         {
           "month": "2023-09",
-          "score": 23
+          "score": 22
         },
         {
           "month": "2023-10",
@@ -8697,15 +8697,15 @@
         },
         {
           "month": "2023-11",
-          "score": 23
+          "score": 24
         },
         {
           "month": "2023-12",
-          "score": 23
+          "score": 24
         },
         {
           "month": "2024-01",
-          "score": 31
+          "score": 30
         },
         {
           "month": "2024-02",
@@ -8721,7 +8721,7 @@
         },
         {
           "month": "2024-05",
-          "score": 37
+          "score": 38
         },
         {
           "month": "2024-06",
@@ -8729,7 +8729,7 @@
         },
         {
           "month": "2024-07",
-          "score": 33
+          "score": 32
         },
         {
           "month": "2024-08",
@@ -8745,35 +8745,35 @@
         },
         {
           "month": "2024-11",
-          "score": 33
+          "score": 28
         },
         {
           "month": "2024-12",
-          "score": 27
+          "score": 29
         },
         {
           "month": "2025-01",
-          "score": 32
-        },
-        {
-          "month": "2025-02",
-          "score": 40
-        },
-        {
-          "month": "2025-03",
-          "score": 32
-        },
-        {
-          "month": "2025-04",
           "score": 31
         },
         {
-          "month": "2025-05",
+          "month": "2025-02",
+          "score": 36
+        },
+        {
+          "month": "2025-03",
+          "score": 33
+        },
+        {
+          "month": "2025-04",
           "score": 30
         },
         {
+          "month": "2025-05",
+          "score": 31
+        },
+        {
           "month": "2025-06",
-          "score": 38
+          "score": 39
         },
         {
           "month": "2025-07",
@@ -8785,23 +8785,23 @@
         },
         {
           "month": "2025-09",
-          "score": 66
+          "score": 64
         },
         {
           "month": "2025-10",
-          "score": 76
-        },
-        {
-          "month": "2025-11",
           "score": 77
         },
         {
+          "month": "2025-11",
+          "score": 82
+        },
+        {
           "month": "2025-12",
-          "score": 62
+          "score": 61
         },
         {
           "month": "2026-01",
-          "score": 67
+          "score": 65
         },
         {
           "month": "2026-02",
@@ -8809,15 +8809,15 @@
         },
         {
           "month": "2026-03",
-          "score": 89
+          "score": 91
         },
         {
           "month": "2026-04",
-          "score": 78
+          "score": 81
         },
         {
           "month": "2026-05",
-          "score": 85
+          "score": 97
         }
       ],
       "termTrends": {
@@ -8848,7 +8848,7 @@
           },
           {
             "month": "2023-05",
-            "trends": 21
+            "trends": 22
           },
           {
             "month": "2023-06",
@@ -8856,15 +8856,15 @@
           },
           {
             "month": "2023-07",
-            "trends": 26
+            "trends": 27
           },
           {
             "month": "2023-08",
-            "trends": 25
+            "trends": 24
           },
           {
             "month": "2023-09",
-            "trends": 23
+            "trends": 22
           },
           {
             "month": "2023-10",
@@ -8872,15 +8872,15 @@
           },
           {
             "month": "2023-11",
-            "trends": 23
+            "trends": 24
           },
           {
             "month": "2023-12",
-            "trends": 23
+            "trends": 24
           },
           {
             "month": "2024-01",
-            "trends": 31
+            "trends": 30
           },
           {
             "month": "2024-02",
@@ -8896,7 +8896,7 @@
           },
           {
             "month": "2024-05",
-            "trends": 37
+            "trends": 38
           },
           {
             "month": "2024-06",
@@ -8904,7 +8904,7 @@
           },
           {
             "month": "2024-07",
-            "trends": 33
+            "trends": 32
           },
           {
             "month": "2024-08",
@@ -8920,35 +8920,35 @@
           },
           {
             "month": "2024-11",
-            "trends": 33
+            "trends": 28
           },
           {
             "month": "2024-12",
-            "trends": 27
+            "trends": 29
           },
           {
             "month": "2025-01",
-            "trends": 32
-          },
-          {
-            "month": "2025-02",
-            "trends": 40
-          },
-          {
-            "month": "2025-03",
-            "trends": 32
-          },
-          {
-            "month": "2025-04",
             "trends": 31
           },
           {
-            "month": "2025-05",
+            "month": "2025-02",
+            "trends": 36
+          },
+          {
+            "month": "2025-03",
+            "trends": 33
+          },
+          {
+            "month": "2025-04",
             "trends": 30
           },
           {
+            "month": "2025-05",
+            "trends": 31
+          },
+          {
             "month": "2025-06",
-            "trends": 38
+            "trends": 39
           },
           {
             "month": "2025-07",
@@ -8956,27 +8956,27 @@
           },
           {
             "month": "2025-08",
-            "trends": 88
+            "trends": 89
           },
           {
             "month": "2025-09",
-            "trends": 66
+            "trends": 64
           },
           {
             "month": "2025-10",
-            "trends": 76
-          },
-          {
-            "month": "2025-11",
             "trends": 77
           },
           {
+            "month": "2025-11",
+            "trends": 82
+          },
+          {
             "month": "2025-12",
-            "trends": 62
+            "trends": 61
           },
           {
             "month": "2026-01",
-            "trends": 67
+            "trends": 65
           },
           {
             "month": "2026-02",
@@ -8984,15 +8984,15 @@
           },
           {
             "month": "2026-03",
-            "trends": 89
+            "trends": 91
           },
           {
             "month": "2026-04",
-            "trends": 78
+            "trends": 81
           },
           {
             "month": "2026-05",
-            "trends": 85
+            "trends": 88
           }
         ],
         "LangGraph": [
@@ -9062,7 +9062,7 @@
           },
           {
             "month": "2024-03",
-            "trends": 2
+            "trends": 1
           },
           {
             "month": "2024-04",
@@ -9074,7 +9074,7 @@
           },
           {
             "month": "2024-06",
-            "trends": 5
+            "trends": 4
           },
           {
             "month": "2024-07",
@@ -9086,11 +9086,11 @@
           },
           {
             "month": "2024-09",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-10",
-            "trends": 8
+            "trends": 7
           },
           {
             "month": "2024-11",
@@ -9098,7 +9098,7 @@
           },
           {
             "month": "2024-12",
-            "trends": 11
+            "trends": 10
           },
           {
             "month": "2025-01",
@@ -9114,7 +9114,7 @@
           },
           {
             "month": "2025-04",
-            "trends": 19
+            "trends": 18
           },
           {
             "month": "2025-05",
@@ -9122,11 +9122,11 @@
           },
           {
             "month": "2025-06",
-            "trends": 31
+            "trends": 30
           },
           {
             "month": "2025-07",
-            "trends": 40
+            "trends": 34
           },
           {
             "month": "2025-08",
@@ -9134,15 +9134,15 @@
           },
           {
             "month": "2025-09",
-            "trends": 60
+            "trends": 57
           },
           {
             "month": "2025-10",
-            "trends": 55
+            "trends": 52
           },
           {
             "month": "2025-11",
-            "trends": 51
+            "trends": 50
           },
           {
             "month": "2025-12",
@@ -9150,11 +9150,11 @@
           },
           {
             "month": "2026-01",
-            "trends": 44
+            "trends": 46
           },
           {
             "month": "2026-02",
-            "trends": 58
+            "trends": 55
           },
           {
             "month": "2026-03",
@@ -9162,11 +9162,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 78
+            "trends": 77
           },
           {
             "month": "2026-05",
-            "trends": 85
+            "trends": 97
           }
         ]
       }
@@ -9211,7 +9211,7 @@
         },
         {
           "month": "2023-08",
-          "score": 6
+          "score": 7
         },
         {
           "month": "2023-09",
@@ -9219,7 +9219,7 @@
         },
         {
           "month": "2023-10",
-          "score": 10
+          "score": 11
         },
         {
           "month": "2023-11",
@@ -9235,7 +9235,7 @@
         },
         {
           "month": "2024-02",
-          "score": 21
+          "score": 22
         },
         {
           "month": "2024-03",
@@ -9251,11 +9251,11 @@
         },
         {
           "month": "2024-06",
-          "score": 23
+          "score": 24
         },
         {
           "month": "2024-07",
-          "score": 23
+          "score": 24
         },
         {
           "month": "2024-08",
@@ -9283,15 +9283,15 @@
         },
         {
           "month": "2025-02",
-          "score": 22
-        },
-        {
-          "month": "2025-03",
           "score": 23
         },
         {
+          "month": "2025-03",
+          "score": 24
+        },
+        {
           "month": "2025-04",
-          "score": 17
+          "score": 18
         },
         {
           "month": "2025-05",
@@ -9299,7 +9299,7 @@
         },
         {
           "month": "2025-06",
-          "score": 22
+          "score": 23
         },
         {
           "month": "2025-07",
@@ -9311,11 +9311,11 @@
         },
         {
           "month": "2025-09",
-          "score": 58
+          "score": 59
         },
         {
           "month": "2025-10",
-          "score": 59
+          "score": 61
         },
         {
           "month": "2025-11",
@@ -9323,27 +9323,27 @@
         },
         {
           "month": "2025-12",
-          "score": 50
+          "score": 51
         },
         {
           "month": "2026-01",
-          "score": 60
+          "score": 61
         },
         {
           "month": "2026-02",
-          "score": 92
+          "score": 88
         },
         {
           "month": "2026-03",
-          "score": 83
+          "score": 85
         },
         {
           "month": "2026-04",
-          "score": 75
+          "score": 76
         },
         {
           "month": "2026-05",
-          "score": 79
+          "score": 86
         }
       ],
       "termTrends": {
@@ -9386,7 +9386,7 @@
           },
           {
             "month": "2023-08",
-            "trends": 6
+            "trends": 7
           },
           {
             "month": "2023-09",
@@ -9394,7 +9394,7 @@
           },
           {
             "month": "2023-10",
-            "trends": 10
+            "trends": 11
           },
           {
             "month": "2023-11",
@@ -9410,7 +9410,7 @@
           },
           {
             "month": "2024-02",
-            "trends": 21
+            "trends": 22
           },
           {
             "month": "2024-03",
@@ -9426,11 +9426,11 @@
           },
           {
             "month": "2024-06",
-            "trends": 23
+            "trends": 24
           },
           {
             "month": "2024-07",
-            "trends": 23
+            "trends": 24
           },
           {
             "month": "2024-08",
@@ -9458,15 +9458,15 @@
           },
           {
             "month": "2025-02",
-            "trends": 22
-          },
-          {
-            "month": "2025-03",
             "trends": 23
           },
           {
+            "month": "2025-03",
+            "trends": 24
+          },
+          {
             "month": "2025-04",
-            "trends": 17
+            "trends": 18
           },
           {
             "month": "2025-05",
@@ -9474,7 +9474,7 @@
           },
           {
             "month": "2025-06",
-            "trends": 22
+            "trends": 23
           },
           {
             "month": "2025-07",
@@ -9486,11 +9486,11 @@
           },
           {
             "month": "2025-09",
-            "trends": 58
+            "trends": 59
           },
           {
             "month": "2025-10",
-            "trends": 59
+            "trends": 61
           },
           {
             "month": "2025-11",
@@ -9498,27 +9498,27 @@
           },
           {
             "month": "2025-12",
-            "trends": 50
+            "trends": 51
           },
           {
             "month": "2026-01",
-            "trends": 60
+            "trends": 61
           },
           {
             "month": "2026-02",
-            "trends": 92
+            "trends": 88
           },
           {
             "month": "2026-03",
-            "trends": 83
+            "trends": 85
           },
           {
             "month": "2026-04",
-            "trends": 75
+            "trends": 76
           },
           {
             "month": "2026-05",
-            "trends": 79
+            "trends": 86
           }
         ]
       }
@@ -9555,7 +9555,7 @@
         },
         {
           "month": "2023-06",
-          "score": 15
+          "score": 13
         },
         {
           "month": "2023-07",
@@ -9563,11 +9563,11 @@
         },
         {
           "month": "2023-08",
-          "score": 6
+          "score": 5
         },
         {
           "month": "2023-09",
-          "score": 4
+          "score": 3
         },
         {
           "month": "2023-10",
@@ -9575,7 +9575,7 @@
         },
         {
           "month": "2023-11",
-          "score": 4
+          "score": 3
         },
         {
           "month": "2023-12",
@@ -9587,7 +9587,7 @@
         },
         {
           "month": "2024-02",
-          "score": 4
+          "score": 3
         },
         {
           "month": "2024-03",
@@ -9603,11 +9603,11 @@
         },
         {
           "month": "2024-06",
-          "score": 1
+          "score": 2
         },
         {
           "month": "2024-07",
-          "score": 3
+          "score": 1
         },
         {
           "month": "2024-08",
@@ -9615,7 +9615,7 @@
         },
         {
           "month": "2024-09",
-          "score": 2
+          "score": 3
         },
         {
           "month": "2024-10",
@@ -9639,7 +9639,7 @@
         },
         {
           "month": "2025-03",
-          "score": 3
+          "score": 2
         },
         {
           "month": "2025-04",
@@ -9655,11 +9655,11 @@
         },
         {
           "month": "2025-07",
-          "score": 6
+          "score": 5
         },
         {
           "month": "2025-08",
-          "score": 11
+          "score": 12
         },
         {
           "month": "2025-09",
@@ -9675,11 +9675,11 @@
         },
         {
           "month": "2025-12",
-          "score": 7
+          "score": 6
         },
         {
           "month": "2026-01",
-          "score": 9
+          "score": 8
         },
         {
           "month": "2026-02",
@@ -9826,7 +9826,7 @@
           },
           {
             "month": "2025-06",
-            "trends": 2
+            "trends": 1
           },
           {
             "month": "2025-07",
@@ -9862,7 +9862,7 @@
           },
           {
             "month": "2026-03",
-            "trends": 9
+            "trends": 8
           },
           {
             "month": "2026-04",
@@ -9904,7 +9904,7 @@
           },
           {
             "month": "2023-06",
-            "trends": 15
+            "trends": 13
           },
           {
             "month": "2023-07",
@@ -9912,11 +9912,11 @@
           },
           {
             "month": "2023-08",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2023-09",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2023-10",
@@ -9924,11 +9924,11 @@
           },
           {
             "month": "2023-11",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2023-12",
-            "trends": 0
+            "trends": 2
           },
           {
             "month": "2024-01",
@@ -9936,7 +9936,7 @@
           },
           {
             "month": "2024-02",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2024-03",
@@ -9948,15 +9948,15 @@
           },
           {
             "month": "2024-05",
-            "trends": 0
+            "trends": 2
           },
           {
             "month": "2024-06",
-            "trends": 0
+            "trends": 2
           },
           {
             "month": "2024-07",
-            "trends": 3
+            "trends": 0
           },
           {
             "month": "2024-08",
@@ -9964,7 +9964,7 @@
           },
           {
             "month": "2024-09",
-            "trends": 2
+            "trends": 3
           },
           {
             "month": "2024-10",
@@ -9988,7 +9988,7 @@
           },
           {
             "month": "2025-03",
-            "trends": 3
+            "trends": 2
           },
           {
             "month": "2025-04",
@@ -10004,11 +10004,11 @@
           },
           {
             "month": "2025-07",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2025-08",
-            "trends": 11
+            "trends": 12
           },
           {
             "month": "2025-09",
@@ -10024,11 +10024,11 @@
           },
           {
             "month": "2025-12",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2026-01",
-            "trends": 9
+            "trends": 8
           },
           {
             "month": "2026-02",
@@ -10129,7 +10129,7 @@
         },
         {
           "month": "2024-06",
-          "score": 0
+          "score": 23
         },
         {
           "month": "2024-07",
@@ -10165,7 +10165,7 @@
         },
         {
           "month": "2025-03",
-          "score": 32
+          "score": 39
         },
         {
           "month": "2025-04",
@@ -10181,7 +10181,7 @@
         },
         {
           "month": "2025-07",
-          "score": 20
+          "score": 0
         },
         {
           "month": "2025-08",
@@ -10189,23 +10189,23 @@
         },
         {
           "month": "2025-09",
-          "score": 100
-        },
-        {
-          "month": "2025-10",
           "score": 25
         },
         {
+          "month": "2025-10",
+          "score": 26
+        },
+        {
           "month": "2025-11",
-          "score": 0
+          "score": 21
         },
         {
           "month": "2025-12",
-          "score": 24
+          "score": 23
         },
         {
           "month": "2026-01",
-          "score": 38
+          "score": 40
         },
         {
           "month": "2026-02",
@@ -10217,11 +10217,11 @@
         },
         {
           "month": "2026-04",
-          "score": 41
+          "score": 54
         },
         {
           "month": "2026-05",
-          "score": 40
+          "score": 100
         }
       ],
       "termTrends": {
@@ -10304,7 +10304,7 @@
           },
           {
             "month": "2024-06",
-            "trends": 0
+            "trends": 23
           },
           {
             "month": "2024-07",
@@ -10340,7 +10340,7 @@
           },
           {
             "month": "2025-03",
-            "trends": 32
+            "trends": 39
           },
           {
             "month": "2025-04",
@@ -10356,7 +10356,7 @@
           },
           {
             "month": "2025-07",
-            "trends": 20
+            "trends": 0
           },
           {
             "month": "2025-08",
@@ -10364,23 +10364,23 @@
           },
           {
             "month": "2025-09",
-            "trends": 27
-          },
-          {
-            "month": "2025-10",
             "trends": 25
           },
           {
+            "month": "2025-10",
+            "trends": 26
+          },
+          {
             "month": "2025-11",
-            "trends": 0
+            "trends": 21
           },
           {
             "month": "2025-12",
-            "trends": 24
+            "trends": 23
           },
           {
             "month": "2026-01",
-            "trends": 38
+            "trends": 40
           },
           {
             "month": "2026-02",
@@ -10392,11 +10392,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 41
+            "trends": 54
           },
           {
             "month": "2026-05",
-            "trends": 40
+            "trends": 42
           }
         ],
         "CAMEL agent framework": [
@@ -10538,7 +10538,7 @@
           },
           {
             "month": "2025-09",
-            "trends": 100
+            "trends": 0
           },
           {
             "month": "2025-10",
@@ -10570,7 +10570,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 0
+            "trends": 100
           }
         ]
       }
@@ -10683,7 +10683,7 @@
         },
         {
           "month": "2025-01",
-          "score": 0
+          "score": 8
         },
         {
           "month": "2025-02",
@@ -10691,7 +10691,7 @@
         },
         {
           "month": "2025-03",
-          "score": 49
+          "score": 0
         },
         {
           "month": "2025-04",
@@ -10703,11 +10703,11 @@
         },
         {
           "month": "2025-06",
-          "score": 31
+          "score": 0
         },
         {
           "month": "2025-07",
-          "score": 11
+          "score": 8
         },
         {
           "month": "2025-08",
@@ -10715,39 +10715,39 @@
         },
         {
           "month": "2025-09",
-          "score": 48
+          "score": 56
         },
         {
           "month": "2025-10",
-          "score": 48
+          "score": 56
         },
         {
           "month": "2025-11",
-          "score": 42
+          "score": 51
         },
         {
           "month": "2025-12",
-          "score": 40
+          "score": 60
         },
         {
           "month": "2026-01",
-          "score": 42
+          "score": 38
         },
         {
           "month": "2026-02",
-          "score": 64
+          "score": 59
         },
         {
           "month": "2026-03",
-          "score": 52
+          "score": 62
         },
         {
           "month": "2026-04",
-          "score": 57
+          "score": 74
         },
         {
           "month": "2026-05",
-          "score": 46
+          "score": 56
         }
       ],
       "termTrends": {
@@ -10858,7 +10858,7 @@
           },
           {
             "month": "2025-01",
-            "trends": 0
+            "trends": 8
           },
           {
             "month": "2025-02",
@@ -10878,11 +10878,11 @@
           },
           {
             "month": "2025-06",
-            "trends": 8
+            "trends": 0
           },
           {
             "month": "2025-07",
-            "trends": 11
+            "trends": 8
           },
           {
             "month": "2025-08",
@@ -10894,35 +10894,35 @@
           },
           {
             "month": "2025-10",
-            "trends": 48
+            "trends": 47
           },
           {
             "month": "2025-11",
-            "trends": 34
+            "trends": 31
           },
           {
             "month": "2025-12",
-            "trends": 34
+            "trends": 35
           },
           {
             "month": "2026-01",
-            "trends": 42
+            "trends": 38
           },
           {
             "month": "2026-02",
-            "trends": 64
+            "trends": 59
           },
           {
             "month": "2026-03",
-            "trends": 52
+            "trends": 55
           },
           {
             "month": "2026-04",
-            "trends": 34
+            "trends": 36
           },
           {
             "month": "2026-05",
-            "trends": 18
+            "trends": 15
           }
         ],
         "CrewAI agents": [
@@ -11040,7 +11040,7 @@
           },
           {
             "month": "2025-03",
-            "trends": 49
+            "trends": 0
           },
           {
             "month": "2025-04",
@@ -11052,7 +11052,7 @@
           },
           {
             "month": "2025-06",
-            "trends": 31
+            "trends": 0
           },
           {
             "month": "2025-07",
@@ -11064,39 +11064,39 @@
           },
           {
             "month": "2025-09",
-            "trends": 45
+            "trends": 56
           },
           {
             "month": "2025-10",
-            "trends": 38
+            "trends": 56
           },
           {
             "month": "2025-11",
-            "trends": 42
+            "trends": 51
           },
           {
             "month": "2025-12",
-            "trends": 40
+            "trends": 60
           },
           {
             "month": "2026-01",
-            "trends": 31
+            "trends": 0
           },
           {
             "month": "2026-02",
-            "trends": 33
+            "trends": 46
           },
           {
             "month": "2026-03",
-            "trends": 49
+            "trends": 62
           },
           {
             "month": "2026-04",
-            "trends": 57
+            "trends": 74
           },
           {
             "month": "2026-05",
-            "trends": 46
+            "trends": 56
           }
         ]
       }
@@ -11261,7 +11261,7 @@
         },
         {
           "month": "2026-02",
-          "score": 77
+          "score": 78
         },
         {
           "month": "2026-03",
@@ -11273,7 +11273,7 @@
         },
         {
           "month": "2026-05",
-          "score": 32
+          "score": 34
         }
       ],
       "termTrends": {
@@ -11436,7 +11436,7 @@
           },
           {
             "month": "2026-02",
-            "trends": 77
+            "trends": 78
           },
           {
             "month": "2026-03",
@@ -11448,7 +11448,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 32
+            "trends": 34
           }
         ],
         "Clawdbot": [
@@ -11610,7 +11610,7 @@
           },
           {
             "month": "2026-02",
-            "trends": 32
+            "trends": 31
           },
           {
             "month": "2026-03",
@@ -11635,7 +11635,7 @@
         },
         {
           "month": "2022-12",
-          "score": 1
+          "score": 0
         },
         {
           "month": "2023-01",
@@ -11791,11 +11791,11 @@
         },
         {
           "month": "2026-03",
-          "score": 23
+          "score": 18
         },
         {
           "month": "2026-04",
-          "score": 81
+          "score": 73
         },
         {
           "month": "2026-05",
@@ -11966,11 +11966,11 @@
           },
           {
             "month": "2026-03",
-            "trends": 22
+            "trends": 18
           },
           {
             "month": "2026-04",
-            "trends": 81
+            "trends": 73
           },
           {
             "month": "2026-05",
@@ -11984,7 +11984,7 @@
           },
           {
             "month": "2022-12",
-            "trends": 1
+            "trends": 0
           },
           {
             "month": "2023-01",
@@ -12140,11 +12140,11 @@
           },
           {
             "month": "2026-03",
-            "trends": 23
+            "trends": 18
           },
           {
             "month": "2026-04",
-            "trends": 81
+            "trends": 64
           },
           {
             "month": "2026-05",
@@ -12189,7 +12189,7 @@
         },
         {
           "month": "2023-07",
-          "score": 0
+          "score": 19
         },
         {
           "month": "2023-08",
@@ -12205,7 +12205,7 @@
         },
         {
           "month": "2023-11",
-          "score": 0
+          "score": 3
         },
         {
           "month": "2023-12",
@@ -12221,15 +12221,15 @@
         },
         {
           "month": "2024-03",
-          "score": 25
+          "score": 0
         },
         {
           "month": "2024-04",
-          "score": 23
+          "score": 0
         },
         {
           "month": "2024-05",
-          "score": 0
+          "score": 3
         },
         {
           "month": "2024-06",
@@ -12237,7 +12237,7 @@
         },
         {
           "month": "2024-07",
-          "score": 0
+          "score": 23
         },
         {
           "month": "2024-08",
@@ -12245,19 +12245,19 @@
         },
         {
           "month": "2024-09",
-          "score": 23
+          "score": 0
         },
         {
           "month": "2024-10",
-          "score": 21
+          "score": 0
         },
         {
           "month": "2024-11",
-          "score": 28
+          "score": 0
         },
         {
           "month": "2024-12",
-          "score": 36
+          "score": 30
         },
         {
           "month": "2025-01",
@@ -12265,55 +12265,55 @@
         },
         {
           "month": "2025-02",
-          "score": 49
-        },
-        {
-          "month": "2025-03",
           "score": 48
         },
         {
+          "month": "2025-03",
+          "score": 35
+        },
+        {
           "month": "2025-04",
-          "score": 11
+          "score": 25
         },
         {
           "month": "2025-05",
-          "score": 31
+          "score": 40
         },
         {
           "month": "2025-06",
-          "score": 26
+          "score": 12
         },
         {
           "month": "2025-07",
-          "score": 31
-        },
-        {
-          "month": "2025-08",
-          "score": 77
-        },
-        {
-          "month": "2025-09",
-          "score": 44
-        },
-        {
-          "month": "2025-10",
-          "score": 51
-        },
-        {
-          "month": "2025-11",
-          "score": 75
-        },
-        {
-          "month": "2025-12",
-          "score": 43
-        },
-        {
-          "month": "2026-01",
           "score": 37
         },
         {
-          "month": "2026-02",
+          "month": "2025-08",
+          "score": 89
+        },
+        {
+          "month": "2025-09",
+          "score": 54
+        },
+        {
+          "month": "2025-10",
+          "score": 56
+        },
+        {
+          "month": "2025-11",
+          "score": 73
+        },
+        {
+          "month": "2025-12",
           "score": 51
+        },
+        {
+          "month": "2026-01",
+          "score": 36
+        },
+        {
+          "month": "2026-02",
+          "score": 55
         },
         {
           "month": "2026-03",
@@ -12321,11 +12321,11 @@
         },
         {
           "month": "2026-04",
-          "score": 97
+          "score": 100
         },
         {
           "month": "2026-05",
-          "score": 100
+          "score": 99
         }
       ],
       "termTrends": {
@@ -12364,7 +12364,7 @@
           },
           {
             "month": "2023-07",
-            "trends": 0
+            "trends": 19
           },
           {
             "month": "2023-08",
@@ -12396,11 +12396,11 @@
           },
           {
             "month": "2024-03",
-            "trends": 25
+            "trends": 0
           },
           {
             "month": "2024-04",
-            "trends": 23
+            "trends": 0
           },
           {
             "month": "2024-05",
@@ -12412,7 +12412,7 @@
           },
           {
             "month": "2024-07",
-            "trends": 0
+            "trends": 23
           },
           {
             "month": "2024-08",
@@ -12420,75 +12420,75 @@
           },
           {
             "month": "2024-09",
-            "trends": 23
-          },
-          {
-            "month": "2024-10",
-            "trends": 21
-          },
-          {
-            "month": "2024-11",
-            "trends": 28
-          },
-          {
-            "month": "2024-12",
-            "trends": 36
-          },
-          {
-            "month": "2025-01",
-            "trends": 52
-          },
-          {
-            "month": "2025-02",
-            "trends": 45
-          },
-          {
-            "month": "2025-03",
-            "trends": 48
-          },
-          {
-            "month": "2025-04",
             "trends": 0
           },
           {
+            "month": "2024-10",
+            "trends": 0
+          },
+          {
+            "month": "2024-11",
+            "trends": 0
+          },
+          {
+            "month": "2024-12",
+            "trends": 30
+          },
+          {
+            "month": "2025-01",
+            "trends": 72
+          },
+          {
+            "month": "2025-02",
+            "trends": 46
+          },
+          {
+            "month": "2025-03",
+            "trends": 35
+          },
+          {
+            "month": "2025-04",
+            "trends": 25
+          },
+          {
             "month": "2025-05",
-            "trends": 31
+            "trends": 40
           },
           {
             "month": "2025-06",
-            "trends": 26
+            "trends": 0
           },
           {
             "month": "2025-07",
-            "trends": 31
-          },
-          {
-            "month": "2025-08",
-            "trends": 77
-          },
-          {
-            "month": "2025-09",
-            "trends": 44
-          },
-          {
-            "month": "2025-10",
-            "trends": 51
-          },
-          {
-            "month": "2025-11",
-            "trends": 75
-          },
-          {
-            "month": "2025-12",
-            "trends": 43
-          },
-          {
-            "month": "2026-01",
             "trends": 37
           },
           {
-            "month": "2026-02",
+            "month": "2025-08",
+            "trends": 89
+          },
+          {
+            "month": "2025-09",
+            "trends": 54
+          },
+          {
+            "month": "2025-10",
+            "trends": 56
+          },
+          {
+            "month": "2025-11",
+            "trends": 73
+          },
+          {
+            "month": "2025-12",
             "trends": 51
+          },
+          {
+            "month": "2026-01",
+            "trends": 36
+          },
+          {
+            "month": "2026-02",
+            "trends": 55
           },
           {
             "month": "2026-03",
@@ -12496,7 +12496,7 @@
           },
           {
             "month": "2026-04",
-            "trends": 80
+            "trends": 85
           },
           {
             "month": "2026-05",
@@ -12554,7 +12554,7 @@
           },
           {
             "month": "2023-11",
-            "trends": 0
+            "trends": 3
           },
           {
             "month": "2023-12",
@@ -12578,7 +12578,7 @@
           },
           {
             "month": "2024-05",
-            "trends": 0
+            "trends": 3
           },
           {
             "month": "2024-06",
@@ -12606,7 +12606,7 @@
           },
           {
             "month": "2024-12",
-            "trends": 3
+            "trends": 0
           },
           {
             "month": "2025-01",
@@ -12614,11 +12614,11 @@
           },
           {
             "month": "2025-02",
-            "trends": 49
+            "trends": 48
           },
           {
             "month": "2025-03",
-            "trends": 10
+            "trends": 9
           },
           {
             "month": "2025-04",
@@ -12634,11 +12634,11 @@
           },
           {
             "month": "2025-07",
-            "trends": 13
+            "trends": 15
           },
           {
             "month": "2025-08",
-            "trends": 32
+            "trends": 31
           },
           {
             "month": "2025-09",
@@ -12646,19 +12646,19 @@
           },
           {
             "month": "2025-10",
-            "trends": 24
+            "trends": 23
           },
           {
             "month": "2025-11",
-            "trends": 32
+            "trends": 31
           },
           {
             "month": "2025-12",
-            "trends": 22
+            "trends": 23
           },
           {
             "month": "2026-01",
-            "trends": 32
+            "trends": 31
           },
           {
             "month": "2026-02",
@@ -12666,15 +12666,15 @@
           },
           {
             "month": "2026-03",
-            "trends": 70
+            "trends": 71
           },
           {
             "month": "2026-04",
-            "trends": 52
+            "trends": 53
           },
           {
             "month": "2026-05",
-            "trends": 56
+            "trends": 57
           }
         ],
         "Tongyi Qwen": [
@@ -12840,15 +12840,15 @@
           },
           {
             "month": "2026-03",
-            "trends": 99
+            "trends": 0
           },
           {
             "month": "2026-04",
-            "trends": 97
+            "trends": 100
           },
           {
             "month": "2026-05",
-            "trends": 100
+            "trends": 99
           }
         ]
       }
@@ -12957,7 +12957,7 @@
         },
         {
           "month": "2024-12",
-          "score": 62
+          "score": 63
         },
         {
           "month": "2025-01",
@@ -12973,7 +12973,7 @@
         },
         {
           "month": "2025-04",
-          "score": 18
+          "score": 17
         },
         {
           "month": "2025-05",
@@ -12981,7 +12981,7 @@
         },
         {
           "month": "2025-06",
-          "score": 16
+          "score": 17
         },
         {
           "month": "2025-07",
@@ -13001,7 +13001,7 @@
         },
         {
           "month": "2025-11",
-          "score": 20
+          "score": 21
         },
         {
           "month": "2025-12",
@@ -13013,11 +13013,11 @@
         },
         {
           "month": "2026-02",
-          "score": 11
+          "score": 12
         },
         {
           "month": "2026-03",
-          "score": 17
+          "score": 18
         },
         {
           "month": "2026-04",
@@ -13025,7 +13025,7 @@
         },
         {
           "month": "2026-05",
-          "score": 59
+          "score": 63
         }
       ],
       "termTrends": {
@@ -13140,7 +13140,7 @@
           },
           {
             "month": "2025-02",
-            "trends": 45
+            "trends": 43
           },
           {
             "month": "2025-03",
@@ -13148,7 +13148,7 @@
           },
           {
             "month": "2025-04",
-            "trends": 18
+            "trends": 17
           },
           {
             "month": "2025-05",
@@ -13156,7 +13156,7 @@
           },
           {
             "month": "2025-06",
-            "trends": 16
+            "trends": 17
           },
           {
             "month": "2025-07",
@@ -13164,7 +13164,7 @@
           },
           {
             "month": "2025-08",
-            "trends": 12
+            "trends": 11
           },
           {
             "month": "2025-09",
@@ -13184,11 +13184,11 @@
           },
           {
             "month": "2026-01",
-            "trends": 9
+            "trends": 8
           },
           {
             "month": "2026-02",
-            "trends": 9
+            "trends": 8
           },
           {
             "month": "2026-03",
@@ -13314,11 +13314,11 @@
           },
           {
             "month": "2025-02",
-            "trends": 30
+            "trends": 32
           },
           {
             "month": "2025-03",
-            "trends": 6
+            "trends": 7
           },
           {
             "month": "2025-04",
@@ -13338,7 +13338,7 @@
           },
           {
             "month": "2025-08",
-            "trends": 7
+            "trends": 8
           },
           {
             "month": "2025-09",
@@ -13480,7 +13480,7 @@
           },
           {
             "month": "2024-12",
-            "trends": 62
+            "trends": 63
           },
           {
             "month": "2025-01",
@@ -13524,7 +13524,7 @@
           },
           {
             "month": "2025-11",
-            "trends": 20
+            "trends": 21
           },
           {
             "month": "2025-12",
@@ -13536,19 +13536,19 @@
           },
           {
             "month": "2026-02",
-            "trends": 11
+            "trends": 12
           },
           {
             "month": "2026-03",
-            "trends": 17
-          },
-          {
-            "month": "2026-04",
             "trends": 18
           },
           {
+            "month": "2026-04",
+            "trends": 19
+          },
+          {
             "month": "2026-05",
-            "trends": 17
+            "trends": 18
           }
         ],
         "DeepSeek V4": [
@@ -13722,7 +13722,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 59
+            "trends": 63
           }
         ]
       }
@@ -13747,15 +13747,15 @@
         },
         {
           "month": "2023-03",
-          "score": 53
+          "score": 50
         },
         {
           "month": "2023-04",
-          "score": 83
+          "score": 79
         },
         {
           "month": "2023-05",
-          "score": 75
+          "score": 72
         },
         {
           "month": "2023-06",
@@ -13767,15 +13767,15 @@
         },
         {
           "month": "2023-08",
-          "score": 62
+          "score": 63
         },
         {
           "month": "2023-09",
-          "score": 49
+          "score": 51
         },
         {
           "month": "2023-10",
-          "score": 54
+          "score": 53
         },
         {
           "month": "2023-11",
@@ -13787,23 +13787,23 @@
         },
         {
           "month": "2024-01",
-          "score": 51
-        },
-        {
-          "month": "2024-02",
           "score": 53
         },
         {
+          "month": "2024-02",
+          "score": 51
+        },
+        {
           "month": "2024-03",
-          "score": 55
+          "score": 48
         },
         {
           "month": "2024-04",
-          "score": 44
+          "score": 40
         },
         {
           "month": "2024-05",
-          "score": 36
+          "score": 37
         },
         {
           "month": "2024-06",
@@ -13811,27 +13811,27 @@
         },
         {
           "month": "2024-07",
-          "score": 25
-        },
-        {
-          "month": "2024-08",
-          "score": 19
-        },
-        {
-          "month": "2024-09",
           "score": 23
         },
         {
+          "month": "2024-08",
+          "score": 20
+        },
+        {
+          "month": "2024-09",
+          "score": 21
+        },
+        {
           "month": "2024-10",
-          "score": 18
+          "score": 17
         },
         {
           "month": "2024-11",
-          "score": 19
+          "score": 18
         },
         {
           "month": "2024-12",
-          "score": 28
+          "score": 25
         },
         {
           "month": "2025-01",
@@ -13839,7 +13839,7 @@
         },
         {
           "month": "2025-02",
-          "score": 22
+          "score": 21
         },
         {
           "month": "2025-03",
@@ -13851,7 +13851,7 @@
         },
         {
           "month": "2025-05",
-          "score": 10
+          "score": 9
         },
         {
           "month": "2025-06",
@@ -13859,31 +13859,31 @@
         },
         {
           "month": "2025-07",
-          "score": 41
+          "score": 46
         },
         {
           "month": "2025-08",
-          "score": 56
+          "score": 61
         },
         {
           "month": "2025-09",
-          "score": 81
+          "score": 78
         },
         {
           "month": "2025-10",
-          "score": 62
+          "score": 61
         },
         {
           "month": "2025-11",
-          "score": 54
+          "score": 48
         },
         {
           "month": "2025-12",
-          "score": 55
+          "score": 54
         },
         {
           "month": "2026-01",
-          "score": 65
+          "score": 67
         },
         {
           "month": "2026-02",
@@ -13891,7 +13891,7 @@
         },
         {
           "month": "2026-03",
-          "score": 81
+          "score": 82
         },
         {
           "month": "2026-04",
@@ -13899,7 +13899,7 @@
         },
         {
           "month": "2026-05",
-          "score": 67
+          "score": 76
         }
       ],
       "termTrends": {
@@ -13922,15 +13922,15 @@
           },
           {
             "month": "2023-03",
-            "trends": 53
+            "trends": 50
           },
           {
             "month": "2023-04",
-            "trends": 83
+            "trends": 79
           },
           {
             "month": "2023-05",
-            "trends": 75
+            "trends": 72
           },
           {
             "month": "2023-06",
@@ -13942,15 +13942,15 @@
           },
           {
             "month": "2023-08",
-            "trends": 62
+            "trends": 63
           },
           {
             "month": "2023-09",
-            "trends": 49
+            "trends": 51
           },
           {
             "month": "2023-10",
-            "trends": 54
+            "trends": 53
           },
           {
             "month": "2023-11",
@@ -13962,23 +13962,23 @@
           },
           {
             "month": "2024-01",
-            "trends": 51
-          },
-          {
-            "month": "2024-02",
             "trends": 53
           },
           {
+            "month": "2024-02",
+            "trends": 51
+          },
+          {
             "month": "2024-03",
-            "trends": 55
+            "trends": 48
           },
           {
             "month": "2024-04",
-            "trends": 44
+            "trends": 40
           },
           {
             "month": "2024-05",
-            "trends": 36
+            "trends": 37
           },
           {
             "month": "2024-06",
@@ -13986,27 +13986,27 @@
           },
           {
             "month": "2024-07",
-            "trends": 25
-          },
-          {
-            "month": "2024-08",
-            "trends": 19
-          },
-          {
-            "month": "2024-09",
             "trends": 23
           },
           {
+            "month": "2024-08",
+            "trends": 20
+          },
+          {
+            "month": "2024-09",
+            "trends": 21
+          },
+          {
             "month": "2024-10",
-            "trends": 18
+            "trends": 17
           },
           {
             "month": "2024-11",
-            "trends": 19
+            "trends": 18
           },
           {
             "month": "2024-12",
-            "trends": 28
+            "trends": 25
           },
           {
             "month": "2025-01",
@@ -14014,11 +14014,11 @@
           },
           {
             "month": "2025-02",
-            "trends": 22
+            "trends": 21
           },
           {
             "month": "2025-03",
-            "trends": 20
+            "trends": 17
           },
           {
             "month": "2025-04",
@@ -14026,7 +14026,7 @@
           },
           {
             "month": "2025-05",
-            "trends": 10
+            "trends": 9
           },
           {
             "month": "2025-06",
@@ -14034,47 +14034,47 @@
           },
           {
             "month": "2025-07",
-            "trends": 41
+            "trends": 46
           },
           {
             "month": "2025-08",
-            "trends": 56
+            "trends": 61
           },
           {
             "month": "2025-09",
-            "trends": 81
+            "trends": 78
           },
           {
             "month": "2025-10",
-            "trends": 62
+            "trends": 61
           },
           {
             "month": "2025-11",
-            "trends": 54
+            "trends": 48
           },
           {
             "month": "2025-12",
-            "trends": 55
+            "trends": 54
           },
           {
             "month": "2026-01",
-            "trends": 52
+            "trends": 50
           },
           {
             "month": "2026-02",
-            "trends": 66
+            "trends": 65
           },
           {
             "month": "2026-03",
-            "trends": 60
+            "trends": 62
           },
           {
             "month": "2026-04",
-            "trends": 68
+            "trends": 65
           },
           {
             "month": "2026-05",
-            "trends": 55
+            "trends": 51
           }
         ],
         "Zhipu GLM": [
@@ -14188,7 +14188,7 @@
           },
           {
             "month": "2025-02",
-            "trends": 18
+            "trends": 0
           },
           {
             "month": "2025-03",
@@ -14212,11 +14212,11 @@
           },
           {
             "month": "2025-08",
-            "trends": 22
+            "trends": 27
           },
           {
             "month": "2025-09",
-            "trends": 19
+            "trends": 21
           },
           {
             "month": "2025-10",
@@ -14224,23 +14224,23 @@
           },
           {
             "month": "2025-11",
-            "trends": 22
+            "trends": 19
           },
           {
             "month": "2025-12",
-            "trends": 30
+            "trends": 29
           },
           {
             "month": "2026-01",
-            "trends": 32
+            "trends": 34
           },
           {
             "month": "2026-02",
-            "trends": 56
+            "trends": 57
           },
           {
             "month": "2026-03",
-            "trends": 73
+            "trends": 68
           },
           {
             "month": "2026-04",
@@ -14248,7 +14248,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 56
+            "trends": 76
           }
         ],
         "Zhipu AI": [
@@ -14298,11 +14298,11 @@
           },
           {
             "month": "2023-10",
-            "trends": 2
+            "trends": 3
           },
           {
             "month": "2023-11",
-            "trends": 0
+            "trends": 4
           },
           {
             "month": "2023-12",
@@ -14310,15 +14310,15 @@
           },
           {
             "month": "2024-01",
-            "trends": 0
+            "trends": 3
           },
           {
             "month": "2024-02",
-            "trends": 0
+            "trends": 2
           },
           {
             "month": "2024-03",
-            "trends": 3
+            "trends": 2
           },
           {
             "month": "2024-04",
@@ -14326,7 +14326,7 @@
           },
           {
             "month": "2024-05",
-            "trends": 4
+            "trends": 5
           },
           {
             "month": "2024-06",
@@ -14338,11 +14338,11 @@
           },
           {
             "month": "2024-08",
-            "trends": 2
+            "trends": 4
           },
           {
             "month": "2024-09",
-            "trends": 3
+            "trends": 2
           },
           {
             "month": "2024-10",
@@ -14350,19 +14350,19 @@
           },
           {
             "month": "2024-11",
-            "trends": 3
+            "trends": 0
           },
           {
             "month": "2024-12",
-            "trends": 3
+            "trends": 4
           },
           {
             "month": "2025-01",
-            "trends": 6
+            "trends": 7
           },
           {
             "month": "2025-02",
-            "trends": 3
+            "trends": 4
           },
           {
             "month": "2025-03",
@@ -14370,7 +14370,7 @@
           },
           {
             "month": "2025-04",
-            "trends": 5
+            "trends": 6
           },
           {
             "month": "2025-05",
@@ -14382,31 +14382,31 @@
           },
           {
             "month": "2025-07",
-            "trends": 26
+            "trends": 27
           },
           {
             "month": "2025-08",
-            "trends": 43
+            "trends": 44
           },
           {
             "month": "2025-09",
-            "trends": 22
+            "trends": 21
           },
           {
             "month": "2025-10",
-            "trends": 22
+            "trends": 23
           },
           {
             "month": "2025-11",
-            "trends": 18
+            "trends": 19
           },
           {
             "month": "2025-12",
-            "trends": 42
+            "trends": 43
           },
           {
             "month": "2026-01",
-            "trends": 65
+            "trends": 67
           },
           {
             "month": "2026-02",
@@ -14414,15 +14414,15 @@
           },
           {
             "month": "2026-03",
-            "trends": 81
+            "trends": 82
           },
           {
             "month": "2026-04",
-            "trends": 89
+            "trends": 94
           },
           {
             "month": "2026-05",
-            "trends": 67
+            "trends": 69
           }
         ]
       }
@@ -14447,7 +14447,7 @@
         },
         {
           "month": "2023-03",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2023-04",
@@ -14455,7 +14455,7 @@
         },
         {
           "month": "2023-05",
-          "score": 1
+          "score": 0
         },
         {
           "month": "2023-06",
@@ -14487,7 +14487,7 @@
         },
         {
           "month": "2024-01",
-          "score": 1
+          "score": 0
         },
         {
           "month": "2024-02",
@@ -14495,11 +14495,11 @@
         },
         {
           "month": "2024-03",
-          "score": 2
+          "score": 31
         },
         {
           "month": "2024-04",
-          "score": 1
+          "score": 2
         },
         {
           "month": "2024-05",
@@ -14511,7 +14511,7 @@
         },
         {
           "month": "2024-07",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2024-08",
@@ -14523,11 +14523,11 @@
         },
         {
           "month": "2024-10",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2024-11",
-          "score": 3
+          "score": 2
         },
         {
           "month": "2024-12",
@@ -14535,15 +14535,15 @@
         },
         {
           "month": "2025-01",
-          "score": 42
+          "score": 40
         },
         {
           "month": "2025-02",
-          "score": 4
+          "score": 5
         },
         {
           "month": "2025-03",
-          "score": 2
+          "score": 3
         },
         {
           "month": "2025-04",
@@ -14559,11 +14559,11 @@
         },
         {
           "month": "2025-07",
-          "score": 57
+          "score": 37
         },
         {
           "month": "2025-08",
-          "score": 48
+          "score": 43
         },
         {
           "month": "2025-09",
@@ -14575,11 +14575,11 @@
         },
         {
           "month": "2025-11",
-          "score": 52
+          "score": 55
         },
         {
           "month": "2025-12",
-          "score": 19
+          "score": 40
         },
         {
           "month": "2026-01",
@@ -14591,7 +14591,7 @@
         },
         {
           "month": "2026-03",
-          "score": 93
+          "score": 94
         },
         {
           "month": "2026-04",
@@ -14599,7 +14599,7 @@
         },
         {
           "month": "2026-05",
-          "score": 75
+          "score": 76
         }
       ],
       "termTrends": {
@@ -14622,7 +14622,7 @@
           },
           {
             "month": "2023-03",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2023-04",
@@ -14630,7 +14630,7 @@
           },
           {
             "month": "2023-05",
-            "trends": 1
+            "trends": 0
           },
           {
             "month": "2023-06",
@@ -14662,7 +14662,7 @@
           },
           {
             "month": "2024-01",
-            "trends": 1
+            "trends": 0
           },
           {
             "month": "2024-02",
@@ -14670,11 +14670,11 @@
           },
           {
             "month": "2024-03",
-            "trends": 2
+            "trends": 4
           },
           {
             "month": "2024-04",
-            "trends": 1
+            "trends": 2
           },
           {
             "month": "2024-05",
@@ -14686,7 +14686,7 @@
           },
           {
             "month": "2024-07",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2024-08",
@@ -14698,7 +14698,7 @@
           },
           {
             "month": "2024-10",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2024-11",
@@ -14714,11 +14714,11 @@
           },
           {
             "month": "2025-02",
-            "trends": 4
+            "trends": 5
           },
           {
             "month": "2025-03",
-            "trends": 2
+            "trends": 3
           },
           {
             "month": "2025-04",
@@ -14766,15 +14766,15 @@
           },
           {
             "month": "2026-03",
-            "trends": 76
+            "trends": 77
           },
           {
             "month": "2026-04",
-            "trends": 98
+            "trends": 97
           },
           {
             "month": "2026-05",
-            "trends": 75
+            "trends": 76
           }
         ],
         "Moonshot Kimi": [
@@ -14876,7 +14876,7 @@
           },
           {
             "month": "2024-11",
-            "trends": 3
+            "trends": 0
           },
           {
             "month": "2024-12",
@@ -14884,11 +14884,11 @@
           },
           {
             "month": "2025-01",
-            "trends": 0
+            "trends": 3
           },
           {
             "month": "2025-02",
-            "trends": 3
+            "trends": 0
           },
           {
             "month": "2025-03",
@@ -14912,7 +14912,7 @@
           },
           {
             "month": "2025-08",
-            "trends": 15
+            "trends": 17
           },
           {
             "month": "2025-09",
@@ -14920,11 +14920,11 @@
           },
           {
             "month": "2025-10",
-            "trends": 9
+            "trends": 7
           },
           {
             "month": "2025-11",
-            "trends": 35
+            "trends": 37
           },
           {
             "month": "2025-12",
@@ -14936,11 +14936,11 @@
           },
           {
             "month": "2026-02",
-            "trends": 92
+            "trends": 90
           },
           {
             "month": "2026-03",
-            "trends": 93
+            "trends": 94
           },
           {
             "month": "2026-04",
@@ -14948,7 +14948,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 62
+            "trends": 64
           }
         ],
         "Kimi LLM": [
@@ -15018,7 +15018,7 @@
           },
           {
             "month": "2024-03",
-            "trends": 0
+            "trends": 31
           },
           {
             "month": "2024-04",
@@ -15058,7 +15058,7 @@
           },
           {
             "month": "2025-01",
-            "trends": 42
+            "trends": 40
           },
           {
             "month": "2025-02",
@@ -15082,11 +15082,11 @@
           },
           {
             "month": "2025-07",
-            "trends": 57
+            "trends": 37
           },
           {
             "month": "2025-08",
-            "trends": 48
+            "trends": 43
           },
           {
             "month": "2025-09",
@@ -15098,15 +15098,15 @@
           },
           {
             "month": "2025-11",
-            "trends": 52
+            "trends": 55
           },
           {
             "month": "2025-12",
-            "trends": 0
+            "trends": 40
           },
           {
             "month": "2026-01",
-            "trends": 65
+            "trends": 77
           },
           {
             "month": "2026-02",
@@ -15118,11 +15118,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 81
+            "trends": 90
           },
           {
             "month": "2026-05",
-            "trends": 59
+            "trends": 47
           }
         ]
       }
@@ -15215,7 +15215,7 @@
         },
         {
           "month": "2024-08",
-          "score": 0
+          "score": 32
         },
         {
           "month": "2024-09",
@@ -15243,7 +15243,7 @@
         },
         {
           "month": "2025-03",
-          "score": 16
+          "score": 15
         },
         {
           "month": "2025-04",
@@ -15259,11 +15259,11 @@
         },
         {
           "month": "2025-07",
-          "score": 21
+          "score": 20
         },
         {
           "month": "2025-08",
-          "score": 9
+          "score": 8
         },
         {
           "month": "2025-09",
@@ -15279,11 +15279,11 @@
         },
         {
           "month": "2025-12",
-          "score": 5
+          "score": 26
         },
         {
           "month": "2026-01",
-          "score": 40
+          "score": 44
         },
         {
           "month": "2026-02",
@@ -15291,15 +15291,15 @@
         },
         {
           "month": "2026-03",
-          "score": 52
+          "score": 63
         },
         {
           "month": "2026-04",
-          "score": 33
+          "score": 61
         },
         {
           "month": "2026-05",
-          "score": 20
+          "score": 29
         }
       ],
       "termTrends": {
@@ -15418,7 +15418,7 @@
           },
           {
             "month": "2025-03",
-            "trends": 16
+            "trends": 15
           },
           {
             "month": "2025-04",
@@ -15434,11 +15434,11 @@
           },
           {
             "month": "2025-07",
-            "trends": 21
+            "trends": 20
           },
           {
             "month": "2025-08",
-            "trends": 9
+            "trends": 8
           },
           {
             "month": "2025-09",
@@ -15454,7 +15454,7 @@
           },
           {
             "month": "2025-12",
-            "trends": 5
+            "trends": 6
           },
           {
             "month": "2026-01",
@@ -15462,7 +15462,7 @@
           },
           {
             "month": "2026-02",
-            "trends": 2
+            "trends": 3
           },
           {
             "month": "2026-03",
@@ -15564,7 +15564,7 @@
           },
           {
             "month": "2024-08",
-            "trends": 0
+            "trends": 32
           },
           {
             "month": "2024-09",
@@ -15628,11 +15628,11 @@
           },
           {
             "month": "2025-12",
-            "trends": 0
+            "trends": 26
           },
           {
             "month": "2026-01",
-            "trends": 40
+            "trends": 44
           },
           {
             "month": "2026-02",
@@ -15640,15 +15640,15 @@
           },
           {
             "month": "2026-03",
-            "trends": 52
+            "trends": 63
           },
           {
             "month": "2026-04",
-            "trends": 33
+            "trends": 61
           },
           {
             "month": "2026-05",
-            "trends": 20
+            "trends": 29
           }
         ]
       }
@@ -15685,7 +15685,7 @@
         },
         {
           "month": "2023-06",
-          "score": 20
+          "score": 21
         },
         {
           "month": "2023-07",
@@ -15697,7 +15697,7 @@
         },
         {
           "month": "2023-09",
-          "score": 21
+          "score": 22
         },
         {
           "month": "2023-10",
@@ -15729,11 +15729,11 @@
         },
         {
           "month": "2024-05",
-          "score": 31
+          "score": 30
         },
         {
           "month": "2024-06",
-          "score": 30
+          "score": 32
         },
         {
           "month": "2024-07",
@@ -15741,23 +15741,23 @@
         },
         {
           "month": "2024-08",
-          "score": 33
+          "score": 32
         },
         {
           "month": "2024-09",
-          "score": 42
+          "score": 41
         },
         {
           "month": "2024-10",
-          "score": 50
+          "score": 48
         },
         {
           "month": "2024-11",
-          "score": 55
+          "score": 53
         },
         {
           "month": "2024-12",
-          "score": 54
+          "score": 53
         },
         {
           "month": "2025-01",
@@ -15765,23 +15765,23 @@
         },
         {
           "month": "2025-02",
-          "score": 57
+          "score": 58
         },
         {
           "month": "2025-03",
-          "score": 96
+          "score": 95
         },
         {
           "month": "2025-04",
-          "score": 76
+          "score": 77
         },
         {
           "month": "2025-05",
-          "score": 82
+          "score": 84
         },
         {
           "month": "2025-06",
-          "score": 82
+          "score": 83
         },
         {
           "month": "2025-07",
@@ -15793,35 +15793,35 @@
         },
         {
           "month": "2025-09",
-          "score": 99
-        },
-        {
-          "month": "2025-10",
-          "score": 97
-        },
-        {
-          "month": "2025-11",
           "score": 100
         },
         {
+          "month": "2025-10",
+          "score": 100
+        },
+        {
+          "month": "2025-11",
+          "score": 96
+        },
+        {
           "month": "2025-12",
-          "score": 83
+          "score": 82
         },
         {
           "month": "2026-01",
-          "score": 81
+          "score": 82
         },
         {
           "month": "2026-02",
-          "score": 81
+          "score": 84
         },
         {
           "month": "2026-03",
-          "score": 90
+          "score": 87
         },
         {
           "month": "2026-04",
-          "score": 86
+          "score": 82
         },
         {
           "month": "2026-05",
@@ -15860,7 +15860,7 @@
           },
           {
             "month": "2023-06",
-            "trends": 20
+            "trends": 21
           },
           {
             "month": "2023-07",
@@ -15872,7 +15872,7 @@
           },
           {
             "month": "2023-09",
-            "trends": 21
+            "trends": 22
           },
           {
             "month": "2023-10",
@@ -15904,11 +15904,11 @@
           },
           {
             "month": "2024-05",
-            "trends": 31
+            "trends": 30
           },
           {
             "month": "2024-06",
-            "trends": 30
+            "trends": 32
           },
           {
             "month": "2024-07",
@@ -15916,23 +15916,23 @@
           },
           {
             "month": "2024-08",
-            "trends": 33
+            "trends": 32
           },
           {
             "month": "2024-09",
-            "trends": 42
+            "trends": 41
           },
           {
             "month": "2024-10",
-            "trends": 50
+            "trends": 48
           },
           {
             "month": "2024-11",
-            "trends": 55
+            "trends": 53
           },
           {
             "month": "2024-12",
-            "trends": 54
+            "trends": 53
           },
           {
             "month": "2025-01",
@@ -15940,23 +15940,23 @@
           },
           {
             "month": "2025-02",
-            "trends": 57
+            "trends": 58
           },
           {
             "month": "2025-03",
-            "trends": 96
+            "trends": 95
           },
           {
             "month": "2025-04",
-            "trends": 76
+            "trends": 77
           },
           {
             "month": "2025-05",
-            "trends": 82
+            "trends": 84
           },
           {
             "month": "2025-06",
-            "trends": 82
+            "trends": 83
           },
           {
             "month": "2025-07",
@@ -15968,39 +15968,39 @@
           },
           {
             "month": "2025-09",
-            "trends": 99
-          },
-          {
-            "month": "2025-10",
-            "trends": 97
-          },
-          {
-            "month": "2025-11",
             "trends": 100
           },
           {
+            "month": "2025-10",
+            "trends": 100
+          },
+          {
+            "month": "2025-11",
+            "trends": 96
+          },
+          {
             "month": "2025-12",
-            "trends": 83
+            "trends": 82
           },
           {
             "month": "2026-01",
-            "trends": 81
+            "trends": 82
           },
           {
             "month": "2026-02",
-            "trends": 81
+            "trends": 84
           },
           {
             "month": "2026-03",
-            "trends": 90
+            "trends": 87
           },
           {
             "month": "2026-04",
-            "trends": 86
+            "trends": 82
           },
           {
             "month": "2026-05",
-            "trends": 87
+            "trends": 83
           }
         ],
         "OpenAI GPT": [
@@ -16026,7 +16026,7 @@
           },
           {
             "month": "2023-04",
-            "trends": 15
+            "trends": 16
           },
           {
             "month": "2023-05",
@@ -16038,7 +16038,7 @@
           },
           {
             "month": "2023-07",
-            "trends": 10
+            "trends": 9
           },
           {
             "month": "2023-08",
@@ -16146,7 +16146,7 @@
           },
           {
             "month": "2025-10",
-            "trends": 23
+            "trends": 24
           },
           {
             "month": "2025-11",
@@ -16154,11 +16154,11 @@
           },
           {
             "month": "2025-12",
-            "trends": 30
+            "trends": 29
           },
           {
             "month": "2026-01",
-            "trends": 14
+            "trends": 15
           },
           {
             "month": "2026-02",
@@ -16184,19 +16184,19 @@
           },
           {
             "month": "2022-12",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2023-01",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2023-02",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2023-03",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2023-04",
@@ -16204,11 +16204,11 @@
           },
           {
             "month": "2023-05",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2023-06",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2023-07",
@@ -16216,7 +16216,7 @@
           },
           {
             "month": "2023-08",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2023-09",
@@ -16224,7 +16224,7 @@
           },
           {
             "month": "2023-10",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2023-11",
@@ -16232,7 +16232,7 @@
           },
           {
             "month": "2023-12",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2024-01",
@@ -16240,27 +16240,27 @@
           },
           {
             "month": "2024-02",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-03",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-04",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-05",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-06",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-07",
-            "trends": 6
+            "trends": 5
           },
           {
             "month": "2024-08",
@@ -16268,7 +16268,7 @@
           },
           {
             "month": "2024-09",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-10",
@@ -16276,7 +16276,7 @@
           },
           {
             "month": "2024-11",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-12",
@@ -16284,11 +16284,11 @@
           },
           {
             "month": "2025-01",
-            "trends": 8
+            "trends": 7
           },
           {
             "month": "2025-02",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2025-03",
@@ -16296,55 +16296,55 @@
           },
           {
             "month": "2025-04",
-            "trends": 8
+            "trends": 7
           },
           {
             "month": "2025-05",
-            "trends": 15
+            "trends": 13
           },
           {
             "month": "2025-06",
-            "trends": 11
+            "trends": 9
           },
           {
             "month": "2025-07",
-            "trends": 8
+            "trends": 7
           },
           {
             "month": "2025-08",
-            "trends": 21
+            "trends": 19
           },
           {
             "month": "2025-09",
-            "trends": 28
+            "trends": 24
           },
           {
             "month": "2025-10",
-            "trends": 21
+            "trends": 20
           },
           {
             "month": "2025-11",
-            "trends": 21
+            "trends": 18
           },
           {
             "month": "2025-12",
-            "trends": 21
+            "trends": 19
           },
           {
             "month": "2026-01",
-            "trends": 26
+            "trends": 25
           },
           {
             "month": "2026-02",
-            "trends": 59
+            "trends": 52
           },
           {
             "month": "2026-03",
-            "trends": 58
+            "trends": 52
           },
           {
             "month": "2026-04",
-            "trends": 81
+            "trends": 74
           },
           {
             "month": "2026-05",
@@ -16381,7 +16381,7 @@
         },
         {
           "month": "2023-05",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2023-06",
@@ -16445,15 +16445,15 @@
         },
         {
           "month": "2024-09",
-          "score": 8
+          "score": 9
         },
         {
           "month": "2024-10",
-          "score": 10
+          "score": 11
         },
         {
           "month": "2024-11",
-          "score": 10
+          "score": 11
         },
         {
           "month": "2024-12",
@@ -16461,15 +16461,15 @@
         },
         {
           "month": "2025-01",
-          "score": 9
-        },
-        {
-          "month": "2025-02",
           "score": 10
         },
         {
-          "month": "2025-03",
+          "month": "2025-02",
           "score": 11
+        },
+        {
+          "month": "2025-03",
+          "score": 12
         },
         {
           "month": "2025-04",
@@ -16481,27 +16481,27 @@
         },
         {
           "month": "2025-06",
-          "score": 14
+          "score": 16
         },
         {
           "month": "2025-07",
-          "score": 13
+          "score": 14
         },
         {
           "month": "2025-08",
-          "score": 35
+          "score": 32
         },
         {
           "month": "2025-09",
-          "score": 27
+          "score": 26
         },
         {
           "month": "2025-10",
-          "score": 20
+          "score": 19
         },
         {
           "month": "2025-11",
-          "score": 21
+          "score": 19
         },
         {
           "month": "2025-12",
@@ -16509,11 +16509,11 @@
         },
         {
           "month": "2026-01",
-          "score": 33
+          "score": 35
         },
         {
           "month": "2026-02",
-          "score": 59
+          "score": 58
         },
         {
           "month": "2026-03",
@@ -16521,7 +16521,7 @@
         },
         {
           "month": "2026-04",
-          "score": 97
+          "score": 94
         },
         {
           "month": "2026-05",
@@ -16664,19 +16664,19 @@
           },
           {
             "month": "2025-08",
-            "trends": 35
+            "trends": 32
           },
           {
             "month": "2025-09",
-            "trends": 27
+            "trends": 26
           },
           {
             "month": "2025-10",
-            "trends": 20
+            "trends": 19
           },
           {
             "month": "2025-11",
-            "trends": 21
+            "trends": 19
           },
           {
             "month": "2025-12",
@@ -16688,7 +16688,7 @@
           },
           {
             "month": "2026-02",
-            "trends": 59
+            "trends": 58
           },
           {
             "month": "2026-03",
@@ -16696,11 +16696,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 97
+            "trends": 93
           },
           {
             "month": "2026-05",
-            "trends": 80
+            "trends": 84
           }
         ],
         "Claude AI": [
@@ -16730,7 +16730,7 @@
           },
           {
             "month": "2023-05",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2023-06",
@@ -16794,15 +16794,15 @@
           },
           {
             "month": "2024-09",
-            "trends": 8
+            "trends": 9
           },
           {
             "month": "2024-10",
-            "trends": 10
+            "trends": 11
           },
           {
             "month": "2024-11",
-            "trends": 10
+            "trends": 11
           },
           {
             "month": "2024-12",
@@ -16810,15 +16810,15 @@
           },
           {
             "month": "2025-01",
-            "trends": 9
-          },
-          {
-            "month": "2025-02",
             "trends": 10
           },
           {
-            "month": "2025-03",
+            "month": "2025-02",
             "trends": 11
+          },
+          {
+            "month": "2025-03",
+            "trends": 12
           },
           {
             "month": "2025-04",
@@ -16830,15 +16830,15 @@
           },
           {
             "month": "2025-06",
-            "trends": 14
+            "trends": 16
           },
           {
             "month": "2025-07",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2025-08",
-            "trends": 14
+            "trends": 15
           },
           {
             "month": "2025-09",
@@ -16854,7 +16854,7 @@
           },
           {
             "month": "2025-12",
-            "trends": 15
+            "trends": 16
           },
           {
             "month": "2026-01",
@@ -16866,11 +16866,11 @@
           },
           {
             "month": "2026-03",
-            "trends": 75
+            "trends": 77
           },
           {
             "month": "2026-04",
-            "trends": 90
+            "trends": 94
           },
           {
             "month": "2026-05",
@@ -17008,15 +17008,15 @@
           },
           {
             "month": "2025-07",
-            "trends": 13
+            "trends": 14
           },
           {
             "month": "2025-08",
-            "trends": 23
+            "trends": 25
           },
           {
             "month": "2025-09",
-            "trends": 15
+            "trends": 16
           },
           {
             "month": "2025-10",
@@ -17028,11 +17028,11 @@
           },
           {
             "month": "2025-12",
-            "trends": 17
+            "trends": 19
           },
           {
             "month": "2026-01",
-            "trends": 33
+            "trends": 35
           },
           {
             "month": "2026-02",
@@ -17044,11 +17044,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 77
+            "trends": 79
           },
           {
             "month": "2026-05",
-            "trends": 71
+            "trends": 79
           }
         ]
       }
@@ -17117,7 +17117,7 @@
         },
         {
           "month": "2024-02",
-          "score": 2
+          "score": 3
         },
         {
           "month": "2024-03",
@@ -17145,11 +17145,11 @@
         },
         {
           "month": "2024-09",
-          "score": 4
+          "score": 3
         },
         {
           "month": "2024-10",
-          "score": 4
+          "score": 3
         },
         {
           "month": "2024-11",
@@ -17197,15 +17197,15 @@
         },
         {
           "month": "2025-10",
-          "score": 32
+          "score": 31
         },
         {
           "month": "2025-11",
-          "score": 25
+          "score": 23
         },
         {
           "month": "2025-12",
-          "score": 22
+          "score": 21
         },
         {
           "month": "2026-01",
@@ -17221,11 +17221,11 @@
         },
         {
           "month": "2026-04",
-          "score": 25
+          "score": 24
         },
         {
           "month": "2026-05",
-          "score": 27
+          "score": 26
         }
       ],
       "termTrends": {
@@ -17292,7 +17292,7 @@
           },
           {
             "month": "2024-02",
-            "trends": 2
+            "trends": 3
           },
           {
             "month": "2024-03",
@@ -17384,15 +17384,15 @@
           },
           {
             "month": "2026-01",
-            "trends": 14
+            "trends": 15
           },
           {
             "month": "2026-02",
-            "trends": 14
+            "trends": 13
           },
           {
             "month": "2026-03",
-            "trends": 14
+            "trends": 15
           },
           {
             "month": "2026-04",
@@ -17400,7 +17400,7 @@
           },
           {
             "month": "2026-05",
-            "trends": 15
+            "trends": 16
           }
         ],
         "Gemini AI": [
@@ -17494,11 +17494,11 @@
           },
           {
             "month": "2024-09",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2024-10",
-            "trends": 4
+            "trends": 3
           },
           {
             "month": "2024-11",
@@ -17546,15 +17546,15 @@
           },
           {
             "month": "2025-10",
-            "trends": 32
+            "trends": 31
           },
           {
             "month": "2025-11",
-            "trends": 25
+            "trends": 23
           },
           {
             "month": "2025-12",
-            "trends": 22
+            "trends": 21
           },
           {
             "month": "2026-01",
@@ -17570,11 +17570,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 25
+            "trends": 24
           },
           {
             "month": "2026-05",
-            "trends": 27
+            "trends": 26
           }
         ]
       }
@@ -17655,7 +17655,7 @@
         },
         {
           "month": "2024-05",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2024-06",
@@ -17699,7 +17699,7 @@
         },
         {
           "month": "2025-04",
-          "score": 17
+          "score": 18
         },
         {
           "month": "2025-05",
@@ -17731,7 +17731,7 @@
         },
         {
           "month": "2025-12",
-          "score": 21
+          "score": 22
         },
         {
           "month": "2026-01",
@@ -17830,7 +17830,7 @@
           },
           {
             "month": "2024-05",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2024-06",
@@ -17866,7 +17866,7 @@
           },
           {
             "month": "2025-02",
-            "trends": 6
+            "trends": 7
           },
           {
             "month": "2025-03",
@@ -18048,7 +18048,7 @@
           },
           {
             "month": "2025-04",
-            "trends": 17
+            "trends": 18
           },
           {
             "month": "2025-05",
@@ -18080,7 +18080,7 @@
           },
           {
             "month": "2025-12",
-            "trends": 21
+            "trends": 22
           },
           {
             "month": "2026-01",
@@ -18092,11 +18092,11 @@
           },
           {
             "month": "2026-03",
-            "trends": 31
+            "trends": 32
           },
           {
             "month": "2026-04",
-            "trends": 27
+            "trends": 26
           },
           {
             "month": "2026-05",
@@ -18109,11 +18109,11 @@
       "points": [
         {
           "month": "2022-11",
-          "score": 0
+          "score": 1
         },
         {
           "month": "2022-12",
-          "score": 0
+          "score": 6
         },
         {
           "month": "2023-01",
@@ -18173,7 +18173,7 @@
         },
         {
           "month": "2024-03",
-          "score": 5
+          "score": 1
         },
         {
           "month": "2024-04",
@@ -18181,7 +18181,7 @@
         },
         {
           "month": "2024-05",
-          "score": 2
+          "score": 3
         },
         {
           "month": "2024-06",
@@ -18201,7 +18201,7 @@
         },
         {
           "month": "2024-10",
-          "score": 7
+          "score": 6
         },
         {
           "month": "2024-11",
@@ -18209,7 +18209,7 @@
         },
         {
           "month": "2024-12",
-          "score": 13
+          "score": 12
         },
         {
           "month": "2025-01",
@@ -18241,7 +18241,7 @@
         },
         {
           "month": "2025-08",
-          "score": 29
+          "score": 28
         },
         {
           "month": "2025-09",
@@ -18249,7 +18249,7 @@
         },
         {
           "month": "2025-10",
-          "score": 36
+          "score": 35
         },
         {
           "month": "2025-11",
@@ -18257,7 +18257,7 @@
         },
         {
           "month": "2025-12",
-          "score": 43
+          "score": 42
         },
         {
           "month": "2026-01",
@@ -18265,7 +18265,7 @@
         },
         {
           "month": "2026-02",
-          "score": 77
+          "score": 76
         },
         {
           "month": "2026-03",
@@ -18273,7 +18273,7 @@
         },
         {
           "month": "2026-04",
-          "score": 93
+          "score": 91
         },
         {
           "month": "2026-05",
@@ -18284,7 +18284,7 @@
         "Doubao": [
           {
             "month": "2022-11",
-            "trends": 0
+            "trends": 1
           },
           {
             "month": "2022-12",
@@ -18356,7 +18356,7 @@
           },
           {
             "month": "2024-05",
-            "trends": 2
+            "trends": 3
           },
           {
             "month": "2024-06",
@@ -18376,7 +18376,7 @@
           },
           {
             "month": "2024-10",
-            "trends": 7
+            "trends": 6
           },
           {
             "month": "2024-11",
@@ -18384,7 +18384,7 @@
           },
           {
             "month": "2024-12",
-            "trends": 13
+            "trends": 12
           },
           {
             "month": "2025-01",
@@ -18408,7 +18408,7 @@
           },
           {
             "month": "2025-06",
-            "trends": 19
+            "trends": 18
           },
           {
             "month": "2025-07",
@@ -18416,7 +18416,7 @@
           },
           {
             "month": "2025-08",
-            "trends": 29
+            "trends": 28
           },
           {
             "month": "2025-09",
@@ -18424,7 +18424,7 @@
           },
           {
             "month": "2025-10",
-            "trends": 36
+            "trends": 35
           },
           {
             "month": "2025-11",
@@ -18432,7 +18432,7 @@
           },
           {
             "month": "2025-12",
-            "trends": 43
+            "trends": 42
           },
           {
             "month": "2026-01",
@@ -18440,15 +18440,15 @@
           },
           {
             "month": "2026-02",
-            "trends": 77
+            "trends": 76
           },
           {
             "month": "2026-03",
-            "trends": 91
+            "trends": 90
           },
           {
             "month": "2026-04",
-            "trends": 93
+            "trends": 91
           },
           {
             "month": "2026-05",
@@ -18462,7 +18462,7 @@
           },
           {
             "month": "2022-12",
-            "trends": 0
+            "trends": 6
           },
           {
             "month": "2023-01",
@@ -18522,7 +18522,7 @@
           },
           {
             "month": "2024-03",
-            "trends": 5
+            "trends": 0
           },
           {
             "month": "2024-04",
@@ -18574,11 +18574,11 @@
           },
           {
             "month": "2025-04",
-            "trends": 0
+            "trends": 6
           },
           {
             "month": "2025-05",
-            "trends": 7
+            "trends": 8
           },
           {
             "month": "2025-06",
@@ -18586,7 +18586,7 @@
           },
           {
             "month": "2025-07",
-            "trends": 12
+            "trends": 13
           },
           {
             "month": "2025-08",
@@ -18594,7 +18594,7 @@
           },
           {
             "month": "2025-09",
-            "trends": 19
+            "trends": 18
           },
           {
             "month": "2025-10",
@@ -18602,7 +18602,7 @@
           },
           {
             "month": "2025-11",
-            "trends": 14
+            "trends": 10
           },
           {
             "month": "2025-12",
@@ -18610,11 +18610,11 @@
           },
           {
             "month": "2026-01",
-            "trends": 25
+            "trends": 22
           },
           {
             "month": "2026-02",
-            "trends": 55
+            "trends": 54
           },
           {
             "month": "2026-03",
@@ -18622,11 +18622,11 @@
           },
           {
             "month": "2026-04",
-            "trends": 68
+            "trends": 71
           },
           {
             "month": "2026-05",
-            "trends": 86
+            "trends": 88
           }
         ]
       }
