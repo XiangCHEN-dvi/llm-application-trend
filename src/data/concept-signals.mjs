@@ -37,7 +37,7 @@ export const CONCEPT_SIGNALS = {
     terms: ["Agent2Agent protocol", "A2A protocol"],
   },
   skills: {
-    terms: ["Anthropic Skills", "Claude Skills", "LLM agent skills"],
+    terms: ["Anthropic Skills", "Claude Skills"],
   },
   "langchain-langgraph": {
     terms: ["LangChain", "LangGraph"],
@@ -102,10 +102,16 @@ export const CONCEPT_SIGNALS = {
   copilot: {
     terms: ["GitHub Copilot Chat", "Microsoft Copilot"],
   },
+  "computer-use": {
+    terms: ["Claude computer use", "OpenAI computer use"],
+  },
   "deep-research": {
     terms: ["Deep Research"],
   },
   "vibe-coding": {
     terms: ["vibe coding"],
+  },
+  rsi: {
+    terms: ["recursive self-improvement", "AI4AI"],
   },
 };

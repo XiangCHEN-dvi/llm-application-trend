@@ -93,6 +93,11 @@
         "summary": "Inline assistants in IDEs, Office, and browsers—GitHub Copilot and Microsoft Copilot popularized the copilot UX."
       },
       {
+        "id": "computer-use",
+        "name": "Computer Use",
+        "summary": "Models driving a desktop or browser with clicks and keystrokes—Claude computer use first, then OpenAI—on software that has no API."
+      },
+      {
         "id": "deep-research",
         "name": "Deep Research",
         "summary": "Long-running search, reading, and synthesis into reports—productized by OpenAI, Google, and others."
@@ -101,6 +106,11 @@
         "id": "vibe-coding",
         "name": "Vibe Coding",
         "summary": "Describing software in natural language and iterating fast—celebrated for speed, questioned on reliability."
+      },
+      {
+        "id": "rsi",
+        "name": "RSI",
+        "summary": "Recursive self-improvement—AI that improves the systems building AI, from self-editing agents to AI4AI research loops."
       }
     ]
   }
