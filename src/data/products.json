@@ -91,6 +91,11 @@
         "id": "seed",
         "name": "Seed",
         "summary": "ByteDance’s Seed / Doubao model line—closed consumer and enterprise assistants built on one of China’s largest distribution surfaces."
+      },
+      {
+        "id": "manus",
+        "name": "Manus",
+        "summary": "Butterfly Effect’s Manus—a closed general-purpose agent that plans and runs multi-step computer tasks."
       }
     ]
   }

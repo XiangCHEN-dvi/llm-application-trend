@@ -37,7 +37,7 @@ export const CONCEPT_SIGNALS = {
     terms: ["Agent2Agent protocol", "A2A protocol"],
   },
   skills: {
-    terms: ["Anthropic Skills", "Claude Skills"],
+    terms: ["Anthropic Skills", "Claude Skills", "Agent Skills"],
   },
   "langchain-langgraph": {
     terms: ["LangChain", "LangGraph"],
@@ -55,7 +55,7 @@ export const CONCEPT_SIGNALS = {
     terms: ["CrewAI framework", "CrewAI agents"],
   },
   "agent-harness": {
-    terms: ["OpenHarness", "LLM harness"],
+    terms: ["agent harness"],
   },
   openclaw: {
     terms: ["OpenClaw", "Clawdbot"],
@@ -92,6 +92,9 @@ export const CONCEPT_SIGNALS = {
   },
   seed: {
     terms: ["Doubao", "bytedance seed"],
+  },
+  manus: {
+    terms: ["Manus AI", "Manus agent"],
   },
   chatbot: {
     terms: ["LLM chatbot"],

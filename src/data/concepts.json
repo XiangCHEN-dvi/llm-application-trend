@@ -15,7 +15,7 @@
       {
         "id": "prompt-engineering",
         "name": "Prompt Engineering",
-        "summary": "Crafting prompts to steer model behavior—a defining builder skill in 2023, later partly absorbed by context engineering."
+        "summary": "Crafting prompts to steer model behavior—a defining builder skill in 2023."
       },
       {
         "id": "context-engineering",
@@ -40,7 +40,7 @@
       {
         "id": "vector-db",
         "name": "Vector Database",
-        "summary": "Pinecone, Weaviate, Chroma, and peers surged with the RAG boom, then cooled as the market consolidated."
+        "summary": "Pinecone, Weaviate, Chroma, and peers surged with the RAG boom."
       }
     ]
   },
@@ -70,7 +70,7 @@
       {
         "id": "agent-harness",
         "name": "Agent Harness",
-        "summary": "Repeatable runtimes for models, tools, and environments—with tracing and eval hooks—from OSS scaffolds to IDE loops."
+        "summary": "Repeatable runtimes around a model—the loop, tools, and sandbox—from OSS scaffolds to IDE loops."
       }
     ]
   },
